@@ -53,8 +53,9 @@ public class Process {
 			System.out.println("Process"+ UUID +" is running.");
 			while(true){
 				Socket s = ss.accept();					
+				System.out.println(new Date());
 				ConnectionHandler conn = new ConnectionHandler(s,this);
-				conn.start();						
+				conn.run();						
 			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

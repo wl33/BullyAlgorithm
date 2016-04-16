@@ -26,7 +26,7 @@ import java.util.UUID;
 import gui.ProcessGUI;
 
 
-public class ConnectionHandler extends Thread{
+public class ConnectionHandler {//extends Thread
 	private Socket conn;       // socket representing TCP/IP connection to Client
 	private InputStream is;    // get data from client on this input stream	
 	private OutputStream os;   // can send data back to the client on this output stream

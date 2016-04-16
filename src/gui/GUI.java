@@ -76,7 +76,7 @@ public class GUI extends JFrame implements ActionListener{
 		}else{					
 			for (int i = 0; i < Integer.valueOf(numberOfProcess.getText().trim()); i++) {
 				ProcessGUI processGUI = new ProcessGUI(String.valueOf(i));
-				final model.Process process = new model.Process(8888+i, i, processGUI);
+				final model.Process process = new model.Process(8899+i, i, processGUI);
 				process.setGUI(processGUI);
 				
 				Thread thread = new Thread(new Runnable() {				
