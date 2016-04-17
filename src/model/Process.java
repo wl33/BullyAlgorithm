@@ -30,11 +30,14 @@ public class Process {
 	private  List<Integer> UUIDList;
 	private ServerSocket ss; // listen for client connection requests on this server socket
 	private ProcessGUI GUI;
-	private boolean[] isCrash;
+	private boolean[] crashStatus;
 	private int leader;
 	private double crashProssibility;
 	private double timeoutProssibility;
 	private SimpleDateFormat formatter;
+	private boolean[] receiveOK;
+	private boolean isTimeOut;
+	private boolean isCrash;
 	
 	public Process(int port, int UUID,ProcessGUI GUI, List<Integer> portList, List<Integer> UUIDList){
 		this.port = port;
@@ -42,7 +45,8 @@ public class Process {
 		this.GUI = GUI;
 		this.portList = portList;
 		this.UUIDList = UUIDList;
-		isCrash = new boolean[portList.size()];
+		crashStatus = new boolean[portList.size()];
+		receiveOK = new boolean[portList.size()];
 		leader=-1;
 		crashProssibility=-1;
 		timeoutProssibility=-1;
@@ -55,7 +59,7 @@ public class Process {
 			ss = new ServerSocket(this.port);
 			System.out.println("Process"+ UUID +" is running.");
 			while(true){
-				if (Math.random()<=crashProssibility) { //
+				if (Math.random()<=crashProssibility || isCrash) { //
 					GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Random Error: Crash Error Accur");
 				    break;
 				}
@@ -83,9 +87,14 @@ public class Process {
 	        String senderUUID = (String) inFromClient.readObject();
 	        String message = (String) inFromClient.readObject();
 	        
+	        if (isTimeOut) {
+	        	GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Random Error: TimeOut Occur");
+				return;
+			}
 	        
 	        if (message.equals("OKAY")) {
-	        	System.out.println("ok!!!!!!!!!");
+	        	//System.out.println("ok!!!!!!!!!");
+	        	receiveOK[Integer.valueOf(senderUUID)]=true;
 				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Received OKAY from "+ senderUUID);
 			} else if (message.equals("Elect")) {	//election business logic							
 				sendOK(senderUUID);
@@ -136,28 +145,64 @@ public class Process {
 					// TODO Auto-generated catch block			
 					System.out.println("elect exception");
 					GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: Crash Error "+ UUIDList.get(i));
-		            isCrash[UUIDList.get(i)] = true;
+		            crashStatus[UUIDList.get(i)] = true;
 		            if(isRankTopNow()){
+		            	sendResult();
 		            	break;
 		            }
 		        }
-			}				    
+			}
+			
+			Thread thread = new Thread( new Runnable() {
+				public void run() {
+					try {
+						Thread.sleep(1000);
+						for(int i=UUID+1;i<UUIDList.size();i++){
+							if (receiveOK[i] == false) {
+								System.out.println("Process "+ i + "timeout");
+								GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within accepted time");
+							}
+						}
+						//do further steps
+						if (isRankTopNow()) sendResult();
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			});
+			thread.start();
+			
 		}
 	
 	private boolean isRankTopNow(){
 		boolean isRankTopNow=true;
-		for (int i = UUID+1; i < isCrash.length; i++) {
-			if(isCrash[i]==false){
+		for (int i = UUID+1; i < crashStatus.length; i++) {
+			if(crashStatus[i]==false){
 				isRankTopNow=false;
 				break;
 			}
 		}
 		if(isRankTopNow){
 		    System.out.println(UUID+" is Top One now");
-			sendResult();
 			return true;
 		}
+		
+		isRankTopNow=true;
+		for(int i=receiveOK.length-1; i>=UUID+1; i--){
+			if (receiveOK[i]==true) {
+				isRankTopNow=false;
+				break;
+			}
+		}
+		
+		if(isRankTopNow){
+			System.out.println(UUID+" is Top One now");
+			return true;
+		}
+		
 		return false;
+		
 	}
 	
 	
@@ -180,7 +225,7 @@ public class Process {
 					// TODO Auto-generated catch block			
 					System.out.println("sendResult exception");
 					GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] SendResult Error: Crash Error "+ UUIDList.get(i));
-					isCrash[UUIDList.get(i)] = true;
+					crashStatus[UUIDList.get(i)] = true;
 		        }
 			}				
 			     
@@ -206,7 +251,7 @@ public class Process {
 			// TODO Auto-generated catch block			
 			System.out.println("SendOK exception");
 			GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] SendOK Error: Crash Error "+ sendUUID);
-			isCrash[Integer.valueOf(sendUUID)] = true;
+			crashStatus[Integer.valueOf(sendUUID)] = true;
 			System.err.println(e);
 		}
 	}
@@ -250,6 +295,22 @@ public class Process {
 
 	public void setTimeoutProssibility(double timeoutProssibility) {
 		this.timeoutProssibility = timeoutProssibility;
+	}
+
+	public boolean isTimeOut() {
+		return isTimeOut;
+	}
+
+	public void setTimeOut(boolean isTimeOut) {
+		this.isTimeOut = isTimeOut;
+	}
+
+	public boolean isCrash() {
+		return isCrash;
+	}
+
+	public void setCrash(boolean isCrash) {
+		this.isCrash = isCrash;
 	}
 	
 	

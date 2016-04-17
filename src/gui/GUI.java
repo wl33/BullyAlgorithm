@@ -5,6 +5,7 @@ import java.awt.Label;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import javax.swing.JButton;
@@ -14,6 +15,8 @@ import javax.swing.JMenuBar;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JToolBar;
+
+import model.Process;
 
 
 
@@ -86,16 +89,6 @@ public class GUI extends JFrame implements ActionListener{
 			
 			for (int i = 0; i < Integer.valueOf(numberOfProcess.getText().trim()); i++) {
 				
-				//ignore Crash notes
-				boolean crash = false;
-				String[] crashP = crashProcesses.getText().trim().split(" ");
-				for (int k = 0; k < crashP.length; k++) {
-					if (Integer.valueOf(crashP[k])==i) {
-					    crash = true;
-					    break;
-					}
-				}
-				if(crash) continue;
 				
 				ProcessGUI processGUI = new ProcessGUI("Process "+String.valueOf(i));
 				
@@ -107,8 +100,26 @@ public class GUI extends JFrame implements ActionListener{
 				}
 				
 				final model.Process process = new model.Process(8899+i, i, processGUI,portList,UUIDList);
-				process.setGUI(processGUI);
-				
+				process.setGUI(processGUI);				
+						
+				processes.add(process);			
+			}
+			
+			if(!crashProcesses.getText().trim().equals("")){
+				String[] crashP = crashProcesses.getText().trim().split(" ");
+				for (int k = 0; k < crashP.length; k++) {
+					processes.get(Integer.valueOf(crashP[k])).setCrash(true);;
+				}
+			}
+			
+			//set Timeout process
+			String[] timeoutP = TimeoutProcesses.getText().trim().split(" ");
+			for (int k = 0; k < timeoutP.length; k++) {
+				processes.get(Integer.valueOf(timeoutP[k])).setTimeOut(true);
+			}
+			
+			
+			for (final Process process : processes) {
 				Thread thread = new Thread(new Runnable() {				
 					@Override
 					public void run() {
@@ -117,16 +128,12 @@ public class GUI extends JFrame implements ActionListener{
 					}
 				});
 				thread.start();
-				
-				processes.add(process);
-							
 			}
 			
 			//start election
 		    model.Process stProcess = processes.get(Integer.valueOf(startProcess.getText()));
 			stProcess.elect();
-			
-			
+		
 			
 		}
 		
