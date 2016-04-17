@@ -15,8 +15,6 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JToolBar;
 
-import main.Main2;
-
 
 
 public class GUI extends JFrame implements ActionListener{
@@ -26,6 +24,8 @@ public class GUI extends JFrame implements ActionListener{
 	private JTextArea numberOfProcess;
 	private JTextArea timeout;
 	private JTextArea startProcess;
+	private JTextArea crashProcesses;
+	private JTextArea TimeoutProcesses;
 	private JButton runButton;
 	private List<model.Process> processes;
 	
@@ -45,13 +45,18 @@ public class GUI extends JFrame implements ActionListener{
 		numberOfProcess = new JTextArea();
 		timeout = new JTextArea();
 		startProcess = new JTextArea();
+		crashProcesses = new JTextArea();
+		TimeoutProcesses = new JTextArea();
+		
 		runButton = new JButton("Start an Election!");
 		runButton.addActionListener(this);
 		
-		panel = new JPanel(new GridLayout(4, 4));       
+		panel = new JPanel(new GridLayout(6, 6));       
 		JLabel label1 = new JLabel("Input the number of participants:");
 		JLabel label2 = new JLabel("Input timeout:");
 		JLabel label3 = new JLabel("Input participant starting an election");
+		JLabel label4 = new JLabel("Part2: Crashed Processes(Process starts from 0): ");
+		JLabel label5 = new JLabel("Part2: Timeout Processes(Process starts from 0): ");
 		
 		panel.add(label1);
 		panel.add(numberOfProcess);
@@ -59,6 +64,11 @@ public class GUI extends JFrame implements ActionListener{
 		panel.add(timeout);
 		panel.add(label3);
 		panel.add(startProcess);
+		panel.add(label4);
+		panel.add(crashProcesses);
+		panel.add(label5);
+		panel.add(TimeoutProcesses);
+		
 		panel.add(runButton);
 		add(panel);
 		
@@ -67,16 +77,36 @@ public class GUI extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
-		model.Process.portList = null;
-		model.Process.UUIDList = null;
+		
 		processes.clear();
 		
 		if (numberOfProcess.getText().trim().equals("") || timeout.getText().trim().equals("") || startProcess.getText().trim().equals("")) {
 			System.err.println("input necessary information");
-		}else{					
+		}else{			
+			
 			for (int i = 0; i < Integer.valueOf(numberOfProcess.getText().trim()); i++) {
-				ProcessGUI processGUI = new ProcessGUI(String.valueOf(i));
-				final model.Process process = new model.Process(8899+i, i, processGUI);
+				
+				//ignore Crash notes
+				boolean crash = false;
+				String[] crashP = crashProcesses.getText().trim().split(" ");
+				for (int k = 0; k < crashP.length; k++) {
+					if (Integer.valueOf(crashP[k])==i) {
+					    crash = true;
+					    break;
+					}
+				}
+				if(crash) continue;
+				
+				ProcessGUI processGUI = new ProcessGUI("Process "+String.valueOf(i));
+				
+				List<Integer> portList = new ArrayList<Integer>();
+				List<Integer> UUIDList = new ArrayList<Integer>();
+				for (int k = 0; k < Integer.valueOf(numberOfProcess.getText().trim()); k++) {
+					portList.add(8899+k);
+					UUIDList.add(k);
+				}
+				
+				final model.Process process = new model.Process(8899+i, i, processGUI,portList,UUIDList);
 				process.setGUI(processGUI);
 				
 				Thread thread = new Thread(new Runnable() {				
@@ -89,11 +119,14 @@ public class GUI extends JFrame implements ActionListener{
 				thread.start();
 				
 				processes.add(process);
-				model.Process.portList.add(process.getPort());
-				model.Process.UUIDList.add(process.getUUID());				
+							
 			}
-			model.Process stProcess = processes.get(Integer.valueOf(startProcess.getText()));
+			
+			//start election
+		    model.Process stProcess = processes.get(Integer.valueOf(startProcess.getText()));
 			stProcess.elect();
+			
+			
 			
 		}
 		
