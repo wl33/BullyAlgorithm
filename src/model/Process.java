@@ -1,6 +1,10 @@
 package model;
 
+import java.awt.event.WindowEvent;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -8,8 +12,13 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.io.PrintStream;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -38,9 +47,13 @@ public class Process {
 	private boolean[] receiveOK;
 	private boolean isTimeOut;
 	private boolean isCrash;
+	private boolean isOmission;
 	private int timeout;
 	private boolean[] timeoutStatus;
- 	//private boolean timeout
+ 	private FileWriter fw;
+ 	private String logMessage;
+ 	private BufferedWriter bw;
+    private PrintWriter out;
 	
 	public Process(int port, int UUID,ProcessGUI GUI, List<Integer> portList, List<Integer> UUIDList){
 		this.port = port;
@@ -55,32 +68,50 @@ public class Process {
 		crashProssibility=-1;
 		timeoutProssibility=-1;
 		formatter = new SimpleDateFormat("yyyy-MM-dd h:mm:ss");//[2016-03-22 12:14:01 | 1 ]
+		setFileWriter();
 		
 	}
-	
+
 	public void run(){
 		try {
 			
 			ss = new ServerSocket(this.port);
 			System.out.println("Process"+ UUID +" is running.");
+			GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Status: Start Running");
+			logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Status: Start Running";
+			log(logMessage);
+			
 			while(true){
 				if (Math.random()<=crashProssibility || isCrash) { //
 					GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Random Error: Crash Error Occur");
+					logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Error: Crash Error";
+					log(logMessage);
 				    break;
 				}
 				
-				Socket s = ss.accept();					
+				Socket s = ss.accept();	
+				
 				//System.out.println(new Date());
 				//ConnectionHandler conn = new ConnectionHandler(s,this);
 				//conn.run();			
 				handleConnection(s);
 			}
+			closeLog();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			//e.printStackTrace();
+			if(!isCrash){
+				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Status: Close Server");
+				logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Status: Close Server";
+				log(logMessage);
+				
+				closeLog();	
+			}
+			System.out.println(UUID+" log out");
 		} 
 	}
 
+	
 
 	private void handleConnection(Socket conn){
 		try {
@@ -108,21 +139,44 @@ public class Process {
 	        	return;
 			}
 	        
+	        if(isOmission){
+	        	GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Received "+message+" from "+ senderUUID);
+	        	logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Received "+message+" from "+ senderUUID;
+    	    	log(logMessage);
+    	    	if(message.equals("Elect")){
+    	    		GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Omission Error: Not Reply");
+    	        	logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Omission Error: Not Reply";
+        	    	log(logMessage);
+    	    	}
+	        	inFromClient.close();
+				is.close();
+				conn.close();
+	        	return;
+	        }
+	        
 	        if (message.equals("OKAY")) {
 	        	if (timeoutStatus[Integer.valueOf(senderUUID)]) {
 	        		GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Timeout: Received Timeout OKAY from "+ senderUUID);   
+	        		logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Timeout: Received Timeout OKAY from "+ senderUUID;
+	    			log(logMessage);
 	        	}else {
 	        		receiveOK[Integer.valueOf(senderUUID)]=true;
 	        		GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Received OKAY from "+ senderUUID);
-				}
+	        		logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Received OKAY from "+ senderUUID;
+	    	    	log(logMessage);
+	        	}
 			} else if (message.equals("Elect")) {	//election business logic							
 				sendOK(senderUUID);
 				if(UUID != UUIDList.get(UUIDList.size()-1)){//not the process having biggest UUID
 					//send elect messages to those processes having bigger UUID
 					if (leader!=-1) {//already know the leader, thus do not need to elect.
 						GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: Already known the leader is "+leader+". No need to trigger an election");
+						logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: Already known the leader is "+leader+". No need to trigger an election";
+		    	    	log(logMessage);
 					}else{
 						GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Trigger an election");
+						logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Trigger an election";
+		    	    	log(logMessage);
 						elect();
 					}
 				}
@@ -132,6 +186,8 @@ public class Process {
 			}else {//result message
 				leader = Integer.valueOf(senderUUID);
 				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Received Result from "+ senderUUID);
+				logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Received Result from "+ senderUUID;
+    	    	log(logMessage);
 			}
 	        inFromClient.close();
 	        //outToClient.close();
@@ -156,7 +212,11 @@ public class Process {
 				outToServer = new ObjectOutputStream(clientSocket.getOutputStream());	
 				outToServer.writeObject(String.valueOf(UUID));
 				outToServer.writeObject("Elect");
+				
 				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send Elect "+UUID+" to "+ UUIDList.get(i));
+				logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send Elect "+UUID+" to "+ UUIDList.get(i);
+    	    	log(logMessage);
+				
 				//System.out.println("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send Elect "+UUID+" to "+ Process.UUIDList.get(i));
 				outToServer.close();
 		        clientSocket.close();
@@ -164,7 +224,10 @@ public class Process {
 					// TODO Auto-generated catch block			
 					System.out.println("elect exception");
 					GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: Crash Error "+ UUIDList.get(i));
-		            crashStatus[UUIDList.get(i)] = true;
+					logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: Crash Error "+ UUIDList.get(i);
+	    	    	log(logMessage);
+					
+					crashStatus[UUIDList.get(i)] = true;
 		            if(isRankTopNow()){
 		            	sendResult();
 		            	break;
@@ -179,8 +242,11 @@ public class Process {
 						for(int i=UUID+1;i<UUIDList.size();i++){
 							if (receiveOK[i] == false) {
 								System.out.println("Process "+ i + "timeout");
-								GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within timeout("+timeout+")");
-							    timeoutStatus[i] = true;
+								GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within timeout("+timeout+"ms)");
+								logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within timeout("+timeout+"ms)";
+				    	    	log(logMessage);
+								
+								timeoutStatus[i] = true;
 							}
 						}
 						//do further steps
@@ -225,7 +291,6 @@ public class Process {
 		
 	}
 	
-	
 	public void sendResult(){
 		leader = UUID;
 		Socket clientSocket;
@@ -236,8 +301,12 @@ public class Process {
 				clientSocket = new Socket("127.0.0.1",portList.get(i));
 				outToServer = new ObjectOutputStream(clientSocket.getOutputStream());	
 				outToServer.writeObject(String.valueOf(UUID));
-				outToServer.writeObject(String.valueOf(UUID)+" is the leader");
+				outToServer.writeObject("Result");
+				
 				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send Result "+UUID+" to "+i);
+				logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send Result "+UUID+" to "+i;
+    	    	log(logMessage);
+				
 				System.out.println("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send Result "+UUID+" to "+ UUIDList.get(i));
 				outToServer.close();
 		        clientSocket.close();
@@ -245,6 +314,9 @@ public class Process {
 					// TODO Auto-generated catch block			
 					System.out.println("sendResult exception");
 					GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] SendResult Error: Crash Error "+ UUIDList.get(i));
+					logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] SendResult Error: Crash Error "+ UUIDList.get(i);
+	    	    	log(logMessage);
+					
 					crashStatus[UUIDList.get(i)] = true;
 		        }
 			}				
@@ -262,11 +334,16 @@ public class Process {
 			outToServer.writeObject(String.valueOf(UUID));
 			outToServer.writeObject("OKAY");
 			System.out.println("send ok");
-			if(isTimeOut)
+			if(isTimeOut){
 				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Timeout On Purpose: send delayed OKAY "+UUID+" to "+ sendUUID);
-			else 
+				logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Timeout On Purpose: send delayed OKAY "+UUID+" to "+ sendUUID;
+    	    	log(logMessage);
+			}
+			else {
 				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send OKAY "+UUID+" to "+ sendUUID);
-							
+				logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send OKAY "+UUID+" to "+ sendUUID;
+    	    	log(logMessage);
+			}			
 	        outToServer.close();
 	        clientSocket.close();
 	       
@@ -274,11 +351,67 @@ public class Process {
 			// TODO Auto-generated catch block			
 			System.out.println("SendOK exception");
 			GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] SendOK Error: Crash Error "+ sendUUID);
+			logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] SendOK Error: Crash Error "+ sendUUID;
+	    	log(logMessage);
+			
 			crashStatus[Integer.valueOf(sendUUID)] = true;
-			System.err.println(e);
+			System.out.println(e);
 		}
 	}
 	
+	public void close(){
+		try {
+			ss.close();
+			GUI.dispatchEvent(new WindowEvent(GUI, WindowEvent.WINDOW_CLOSING));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("close exception");
+			e.printStackTrace();
+		}
+	}
+	
+	private void closeLog() {
+		// TODO Auto-generated method stub
+		try {
+			out.close();
+			bw.close();
+			fw.close();
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+	}
+	
+	private void setFileWriter() {
+		// TODO Auto-generated method stub
+		File file = new File("logs\\process"+UUID+".txt");
+		if (!file.exists()) {
+			try {
+				file.createNewFile();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				System.out.println("fail to creat log");
+			}
+		}
+		try {
+			fw = new FileWriter("logs\\process"+UUID+".txt", true);
+			bw = new BufferedWriter(fw);
+		    out = new PrintWriter(bw);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("fail to creat filewrite");
+			e.printStackTrace();
+		}	
+		
+	    
+	}
+	
+	private void log(String message2) {
+		if(message2.contains("Status"))				
+			out.append("*********************"+ message2+"*********************\n");
+		else
+			out.append(message2+"\n");
+	}
 	
 	public int getPort() {
 		return port;
@@ -343,6 +476,15 @@ public class Process {
 	public void setTimeout(int timeout) {
 		this.timeout = timeout;
 	}
+
+	public boolean isOmission() {
+		return isOmission;
+	}
+
+	public void setOmission(boolean isOmission) {
+		this.isOmission = isOmission;
+	}
+	
 	
 	
 	

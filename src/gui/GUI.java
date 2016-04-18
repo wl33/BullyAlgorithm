@@ -1,11 +1,14 @@
 package gui;
 
 import java.awt.BorderLayout;
+import java.awt.Button;
 import java.awt.GridLayout;
 import java.awt.Label;
 import java.awt.Menu;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -45,10 +48,10 @@ public class GUI extends JFrame implements ActionListener{
 	private JTextArea startProcess;
 	private JTextArea crashProcesses;
 	private JTextArea TimeoutProcesses;
+	private JTextArea OmissionProcesses;
 	private JButton runButton;
 	private List<model.Process> processes;
 	private JMenuBar jMenuBar;
-	private List<Thread> threads;
 	
 	public GUI(){
 		processes = new ArrayList<model.Process>();
@@ -61,7 +64,17 @@ public class GUI extends JFrame implements ActionListener{
         setResizable(false);
         setVisible( true ); // display frame
         
-                
+        
+        addWindowListener(new WindowAdapter() {
+        	@Override
+        	public void windowClosing(WindowEvent e) {
+        		// TODO Auto-generated method stub
+        		for(Process p : processes){
+        			p.close();
+        		}
+        		super.windowClosing(e);
+        	}
+		});         
 	}
 
 	private void init(){
@@ -70,6 +83,7 @@ public class GUI extends JFrame implements ActionListener{
 		startProcess = new JTextArea();
 		crashProcesses = new JTextArea();
 		TimeoutProcesses = new JTextArea();
+		OmissionProcesses = new JTextArea();
 		jMenuBar = new JMenuBar();
 		setMenuBar();
 		
@@ -78,10 +92,11 @@ public class GUI extends JFrame implements ActionListener{
 		
 		panel = new JPanel(new GridLayout(6, 6));       
 		JLabel label1 = new JLabel("Input the number of processes:");
-		JLabel label2 = new JLabel("Input timeout(ms) (default:50ms):");
+		JLabel label2 = new JLabel("Input timeout(ms) (default:100ms):");
 		JLabel label3 = new JLabel("Input a process starting an election");
 		JLabel label4 = new JLabel("Part2: Crash Processes(Process starts from 0): ");
 		JLabel label5 = new JLabel("Part2: Timeout Processes(Process starts from 0): ");
+		JLabel label6 = new JLabel("Part2: Omission Processes(Process starts from 0): ");
 		
 		panel.add(label1);
 		panel.add(numberOfProcess);
@@ -93,10 +108,14 @@ public class GUI extends JFrame implements ActionListener{
 		panel.add(crashProcesses);
 		panel.add(label5);
 		panel.add(TimeoutProcesses);
+		panel.add(label6);
+		panel.add(OmissionProcesses);
 		
-		panel.add(runButton);
+		//panel.add(runButton);
 		add(jMenuBar, BorderLayout.NORTH);
 		add(panel,BorderLayout.CENTER);
+		add(runButton, BorderLayout.SOUTH);
+		
 		
 	}
 
@@ -122,7 +141,7 @@ public class GUI extends JFrame implements ActionListener{
             			BufferedReader br = new BufferedReader(new FileReader(file));
             			String line="";
             		    
-            		    for (int j = 0; j < 5; j++) {
+            		    for (int j = 0; j < 6; j++) {
             		    	line = br.readLine();
             		    	line = line.split(":")[1].trim();
             		        switch (j) {
@@ -141,6 +160,9 @@ public class GUI extends JFrame implements ActionListener{
                             case 4:
                             	TimeoutProcesses.setText(line);
                                 break;
+                            case 5:
+                            	OmissionProcesses.setText(line);
+                            	break;
 							default:
 								break;
 							}
@@ -172,6 +194,9 @@ public class GUI extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		
+		for(Process p : processes){
+			p.close();
+		}
 		processes.clear();
 		
 		if (numberOfProcess.getText().trim().equals("") || timeout.getText().trim().equals("") || startProcess.getText().trim().equals("")) {
@@ -204,16 +229,26 @@ public class GUI extends JFrame implements ActionListener{
 			}
 			
 			//set who is Timeout process
-			String[] timeoutP = TimeoutProcesses.getText().trim().split(" ");
-			for (int k = 0; k < timeoutP.length; k++) {
-				processes.get(Integer.valueOf(timeoutP[k])).setTimeOut(true);
+			if(!TimeoutProcesses.getText().trim().equals("")){
+				String[] timeoutP = TimeoutProcesses.getText().trim().split(" ");
+				for (int k = 0; k < timeoutP.length; k++) {
+					processes.get(Integer.valueOf(timeoutP[k])).setTimeOut(true);
+				}
+			}
+			
+			//set who is Omission process
+			if(!OmissionProcesses.getText().trim().equals("")){
+				String[] omissionP = OmissionProcesses.getText().trim().split(" ");
+				for (int k = 0; k < omissionP.length; k++) {
+					processes.get(Integer.valueOf(omissionP[k])).setOmission(true);
+				}
 			}
 			
 			//set timeout
 			int timeoutMinSecond = 0;
             if(timeout.getText().trim().equals("")){
             	//set default 50ms
-            	timeoutMinSecond = 50;
+            	timeoutMinSecond = 100;
             }else{
             	timeoutMinSecond = Integer.valueOf((timeout.getText().trim())); 
             }
