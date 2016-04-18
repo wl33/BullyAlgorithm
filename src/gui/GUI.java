@@ -1,17 +1,31 @@
 package gui;
 
+import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.Label;
+import java.awt.Menu;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
 import javax.swing.JButton;
+import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JMenu;
 import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JToolBar;
@@ -20,8 +34,10 @@ import model.Process;
 
 
 
+
+
 public class GUI extends JFrame implements ActionListener{
-	private static int DEFAULT_FRAME_WIDTH = 500;
+	private static int DEFAULT_FRAME_WIDTH = 650;
 	private static int DEFAULT_FRAME_HEIGHT = 300;
 	private JPanel panel;
 	private JTextArea numberOfProcess;
@@ -31,7 +47,8 @@ public class GUI extends JFrame implements ActionListener{
 	private JTextArea TimeoutProcesses;
 	private JButton runButton;
 	private List<model.Process> processes;
-	
+	private JMenuBar jMenuBar;
+	private List<Thread> threads;
 	
 	public GUI(){
 		processes = new ArrayList<model.Process>();
@@ -39,8 +56,11 @@ public class GUI extends JFrame implements ActionListener{
 		
         setTitle("Bully Algorithm");
 		setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE ); 
-        setSize( DEFAULT_FRAME_WIDTH, DEFAULT_FRAME_HEIGHT ); // set frame size 
-        setVisible( true ); // display frame 
+        setSize( DEFAULT_FRAME_WIDTH, DEFAULT_FRAME_HEIGHT ); // set frame size
+        setLocationRelativeTo(null);
+        setResizable(false);
+        setVisible( true ); // display frame
+        
                 
 	}
 
@@ -50,15 +70,17 @@ public class GUI extends JFrame implements ActionListener{
 		startProcess = new JTextArea();
 		crashProcesses = new JTextArea();
 		TimeoutProcesses = new JTextArea();
+		jMenuBar = new JMenuBar();
+		setMenuBar();
 		
 		runButton = new JButton("Start an Election!");
 		runButton.addActionListener(this);
 		
 		panel = new JPanel(new GridLayout(6, 6));       
-		JLabel label1 = new JLabel("Input the number of participants:");
-		JLabel label2 = new JLabel("Input timeout:");
-		JLabel label3 = new JLabel("Input participant starting an election");
-		JLabel label4 = new JLabel("Part2: Crashed Processes(Process starts from 0): ");
+		JLabel label1 = new JLabel("Input the number of processes:");
+		JLabel label2 = new JLabel("Input timeout(ms) (default:50ms):");
+		JLabel label3 = new JLabel("Input a process starting an election");
+		JLabel label4 = new JLabel("Part2: Crash Processes(Process starts from 0): ");
 		JLabel label5 = new JLabel("Part2: Timeout Processes(Process starts from 0): ");
 		
 		panel.add(label1);
@@ -73,10 +95,79 @@ public class GUI extends JFrame implements ActionListener{
 		panel.add(TimeoutProcesses);
 		
 		panel.add(runButton);
-		add(panel);
+		add(jMenuBar, BorderLayout.NORTH);
+		add(panel,BorderLayout.CENTER);
 		
 	}
 
+	private void setMenuBar() {
+		// TODO Auto-generated method stub
+		JMenu menu1 = new JMenu("Menu");
+		
+		JMenuItem load  = new JMenuItem("load");
+		load.addActionListener(new ActionListener(){
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				// TODO Auto-generated method stub
+				JFileChooser jFileChooser = new JFileChooser();						
+                int i = jFileChooser.showOpenDialog(null);
+                if(i== jFileChooser.APPROVE_OPTION){ //open file
+                    String path = jFileChooser.getSelectedFile().getAbsolutePath();
+                    String name = jFileChooser.getSelectedFile().getName();
+//                    System.out.println(path);
+//                    System.out.println(name);                                      	
+                    try {
+            			File file = new File(path);
+            			
+            			BufferedReader br = new BufferedReader(new FileReader(file));
+            			String line="";
+            		    
+            		    for (int j = 0; j < 5; j++) {
+            		    	line = br.readLine();
+            		    	line = line.split(":")[1].trim();
+            		        switch (j) {
+							case 0:
+								numberOfProcess.setText(line);
+								break;
+                            case 1:
+								timeout.setText(line);
+								break;
+							case 2:
+								startProcess.setText(line);
+								break;
+                            case 3:
+                            	crashProcesses.setText(line);
+                            	break;
+                            case 4:
+                            	TimeoutProcesses.setText(line);
+                                break;
+							default:
+								break;
+							}
+						}
+            		    
+            		    
+            			br.close();
+     
+            		} catch (IOException ex) {
+            			// TODO Auto-generated catch block
+            			System.out.println("something wrong with the files");
+            			ex.printStackTrace();
+            		}
+                    
+                }else{//no select any file 
+                	return;
+                }
+			}
+			
+		});
+			
+		menu1.add(load);
+	    jMenuBar.add(menu1);
+			
+	}
+	
+	
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
@@ -112,12 +203,24 @@ public class GUI extends JFrame implements ActionListener{
 				}
 			}
 			
-			//set Timeout process
+			//set who is Timeout process
 			String[] timeoutP = TimeoutProcesses.getText().trim().split(" ");
 			for (int k = 0; k < timeoutP.length; k++) {
 				processes.get(Integer.valueOf(timeoutP[k])).setTimeOut(true);
 			}
 			
+			//set timeout
+			int timeoutMinSecond = 0;
+            if(timeout.getText().trim().equals("")){
+            	//set default 50ms
+            	timeoutMinSecond = 50;
+            }else{
+            	timeoutMinSecond = Integer.valueOf((timeout.getText().trim())); 
+            }
+            for (int i = 0; i < processes.size(); i++) {
+				processes.get(i).setTimeout(timeoutMinSecond);
+			}
+            
 			
 			for (final Process process : processes) {
 				Thread thread = new Thread(new Runnable() {				

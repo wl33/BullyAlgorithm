@@ -24,6 +24,7 @@ public class ProcessGUI extends JFrame{
         setTitle(name);
 		setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE ); 
         setSize( DEFAULT_FRAME_WIDTH, DEFAULT_FRAME_HEIGHT ); // set frame size 
+        setResizable(false);
         setVisible( true ); // display frame 
         
         add(label,BorderLayout.NORTH);

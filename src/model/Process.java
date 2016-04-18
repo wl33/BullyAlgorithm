@@ -38,6 +38,9 @@ public class Process {
 	private boolean[] receiveOK;
 	private boolean isTimeOut;
 	private boolean isCrash;
+	private int timeout;
+	private boolean[] timeoutStatus;
+ 	//private boolean timeout
 	
 	public Process(int port, int UUID,ProcessGUI GUI, List<Integer> portList, List<Integer> UUIDList){
 		this.port = port;
@@ -46,11 +49,13 @@ public class Process {
 		this.portList = portList;
 		this.UUIDList = UUIDList;
 		crashStatus = new boolean[portList.size()];
+		timeoutStatus = new boolean[portList.size()];
 		receiveOK = new boolean[portList.size()];
 		leader=-1;
 		crashProssibility=-1;
 		timeoutProssibility=-1;
 		formatter = new SimpleDateFormat("yyyy-MM-dd h:mm:ss");//[2016-03-22 12:14:01 | 1 ]
+		
 	}
 	
 	public void run(){
@@ -60,7 +65,7 @@ public class Process {
 			System.out.println("Process"+ UUID +" is running.");
 			while(true){
 				if (Math.random()<=crashProssibility || isCrash) { //
-					GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Random Error: Crash Error Accur");
+					GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Random Error: Crash Error Occur");
 				    break;
 				}
 				
@@ -76,7 +81,6 @@ public class Process {
 		} 
 	}
 
-	
 
 	private void handleConnection(Socket conn){
 		try {
@@ -88,14 +92,29 @@ public class Process {
 	        String message = (String) inFromClient.readObject();
 	        
 	        if (isTimeOut) {
-	        	GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Random Error: TimeOut Occur");
-				return;
+	        	
+				if (message.equals("Elect")) {
+					try {
+						Thread.sleep(timeout+(int)(Math.random()*10)+20);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					sendOK(senderUUID);
+				}
+				inFromClient.close();
+				is.close();
+				conn.close();
+	        	return;
 			}
 	        
 	        if (message.equals("OKAY")) {
-	        	//System.out.println("ok!!!!!!!!!");
-	        	receiveOK[Integer.valueOf(senderUUID)]=true;
-				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Received OKAY from "+ senderUUID);
+	        	if (timeoutStatus[Integer.valueOf(senderUUID)]) {
+	        		GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Timeout: Received Timeout OKAY from "+ senderUUID);   
+	        	}else {
+	        		receiveOK[Integer.valueOf(senderUUID)]=true;
+	        		GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Received OKAY from "+ senderUUID);
+				}
 			} else if (message.equals("Elect")) {	//election business logic							
 				sendOK(senderUUID);
 				if(UUID != UUIDList.get(UUIDList.size()-1)){//not the process having biggest UUID
@@ -156,11 +175,12 @@ public class Process {
 			Thread thread = new Thread( new Runnable() {
 				public void run() {
 					try {
-						Thread.sleep(1000);
+						Thread.sleep(timeout);
 						for(int i=UUID+1;i<UUIDList.size();i++){
 							if (receiveOK[i] == false) {
 								System.out.println("Process "+ i + "timeout");
-								GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within accepted time");
+								GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within timeout("+timeout+")");
+							    timeoutStatus[i] = true;
 							}
 						}
 						//do further steps
@@ -242,7 +262,10 @@ public class Process {
 			outToServer.writeObject(String.valueOf(UUID));
 			outToServer.writeObject("OKAY");
 			System.out.println("send ok");
-			GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send OKAY "+UUID+" to "+ sendUUID);
+			if(isTimeOut)
+				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Timeout On Purpose: send delayed OKAY "+UUID+" to "+ sendUUID);
+			else 
+				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send OKAY "+UUID+" to "+ sendUUID);
 							
 	        outToServer.close();
 	        clientSocket.close();
@@ -311,6 +334,14 @@ public class Process {
 
 	public void setCrash(boolean isCrash) {
 		this.isCrash = isCrash;
+	}
+
+	public int getTimeout() {
+		return timeout;
+	}
+
+	public void setTimeout(int timeout) {
+		this.timeout = timeout;
 	}
 	
 	

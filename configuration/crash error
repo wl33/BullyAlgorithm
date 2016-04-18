@@ -1,0 +1,5 @@
+number of processes : 6
+timeout : 50
+process starting an election : 0
+crash processes : 5
+timeout processes : 
