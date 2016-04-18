@@ -3,4 +3,4 @@ timeout : 50
 process starting an election : 0
 crash processes : 5 1
 timeout processes : 
-omission processes:
+omission processes: 

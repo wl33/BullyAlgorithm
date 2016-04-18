@@ -143,6 +143,7 @@ public class GUI extends JFrame implements ActionListener{
             		    
             		    for (int j = 0; j < 6; j++) {
             		    	line = br.readLine();
+            		    	//System.out.println(j);
             		    	line = line.split(":")[1].trim();
             		        switch (j) {
 							case 0:
@@ -216,7 +217,8 @@ public class GUI extends JFrame implements ActionListener{
 				}
 				
 				final model.Process process = new model.Process(8899+i, i, processGUI,portList,UUIDList);
-				process.setGUI(processGUI);				
+				process.setGUI(processGUI);	
+				processGUI.setProcess(process);
 						
 				processes.add(process);			
 			}

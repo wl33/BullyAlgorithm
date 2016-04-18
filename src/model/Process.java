@@ -54,6 +54,7 @@ public class Process {
  	private String logMessage;
  	private BufferedWriter bw;
     private PrintWriter out;
+    private boolean close;
 	
 	public Process(int port, int UUID,ProcessGUI GUI, List<Integer> portList, List<Integer> UUIDList){
 		this.port = port;
@@ -112,6 +113,29 @@ public class Process {
 	}
 
 	
+
+	private void setRandomOccurError() {
+		// TODO Auto-generated method stub
+		if(isCrash){
+			Thread t1 = new Thread(new Runnable() {
+				public void run() {
+					while(true){
+						try {
+							Thread.sleep(10);
+						} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+				}
+			});
+			t1.start();
+			return;
+		}
+		if (isTimeOut) {
+			
+		}
+	}
 
 	private void handleConnection(Socket conn){
 		try {
@@ -242,7 +266,7 @@ public class Process {
 						for(int i=UUID+1;i<UUIDList.size();i++){
 							if (receiveOK[i] == false) {
 								System.out.println("Process "+ i + "timeout");
-								GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within timeout("+timeout+"ms)");
+								GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within timeout ("+timeout+"ms)");
 								logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within timeout("+timeout+"ms)";
 				    	    	log(logMessage);
 								
@@ -483,6 +507,14 @@ public class Process {
 
 	public void setOmission(boolean isOmission) {
 		this.isOmission = isOmission;
+	}
+
+	public boolean isClose() {
+		return close;
+	}
+
+	public void setClose(boolean close) {
+		this.close = close;
 	}
 	
 	
