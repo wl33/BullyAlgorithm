@@ -21,6 +21,7 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+import javax.sound.sampled.Port;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
@@ -52,6 +53,7 @@ public class GUI extends JFrame implements ActionListener{
 	private JButton runButton;
 	private List<model.Process> processes;
 	private JMenuBar jMenuBar;
+	private final int PORT=8899; 
 	
 	public GUI(){
 		processes = new ArrayList<model.Process>();
@@ -63,8 +65,7 @@ public class GUI extends JFrame implements ActionListener{
         setLocationRelativeTo(null);
         setResizable(false);
         setVisible( true ); // display frame
-        
-        
+               
         addWindowListener(new WindowAdapter() {
         	@Override
         	public void windowClosing(WindowEvent e) {
@@ -196,23 +197,25 @@ public class GUI extends JFrame implements ActionListener{
 		// TODO Auto-generated method stub
 		
 		for(Process p : processes){
-			p.close();
+			if(!p.isCloseBySelfGUI()){
+			   p.setCloseByMainGUI(true);
+			   p.close();
+			}
 		}
 		processes.clear();
 		
-		if (numberOfProcess.getText().trim().equals("") || timeout.getText().trim().equals("") || startProcess.getText().trim().equals("")) {
+		if (numberOfProcess.getText().trim().equals("")  || startProcess.getText().trim().equals("")) {
 			System.err.println("input necessary information");
 		}else{			
 			
 			for (int i = 0; i < Integer.valueOf(numberOfProcess.getText().trim()); i++) {
-				
 				
 				ProcessGUI processGUI = new ProcessGUI("Process "+String.valueOf(i));
 				
 				List<Integer> portList = new ArrayList<Integer>();
 				List<Integer> UUIDList = new ArrayList<Integer>();
 				for (int k = 0; k < Integer.valueOf(numberOfProcess.getText().trim()); k++) {
-					portList.add(8899+k);
+					portList.add(PORT+k);
 					UUIDList.add(k);
 				}
 				
@@ -269,6 +272,8 @@ public class GUI extends JFrame implements ActionListener{
 				});
 				thread.start();
 			}
+			
+			
 			
 			//start election
 		    model.Process stProcess = processes.get(Integer.valueOf(startProcess.getText()));

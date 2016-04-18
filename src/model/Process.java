@@ -23,6 +23,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Random;
 
 import javax.sound.midi.MidiDevice.Info;
 import javax.xml.crypto.Data;
@@ -54,7 +55,8 @@ public class Process {
  	private String logMessage;
  	private BufferedWriter bw;
     private PrintWriter out;
-    private boolean close;
+    private boolean closeByMainGUI;
+    private boolean closeBySelfGUI;
 	
 	public Process(int port, int UUID,ProcessGUI GUI, List<Integer> portList, List<Integer> UUIDList){
 		this.port = port;
@@ -77,24 +79,27 @@ public class Process {
 		try {
 			
 			ss = new ServerSocket(this.port);
+			
 			System.out.println("Process"+ UUID +" is running.");
 			GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Status: Start Running");
 			logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Status: Start Running";
 			log(logMessage);
 			
+			if (!isCrash && !isTimeOut && !isOmission) {
+				detectLeaderCrash();
+			}
+					
 			while(true){
-				if (Math.random()<=crashProssibility || isCrash) { //
+				if (isCrash) { //
 					GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Random Error: Crash Error Occur");
 					logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Error: Crash Error";
 					log(logMessage);
+					close();
 				    break;
-				}
+				}		
 				
 				Socket s = ss.accept();	
-				
-				//System.out.println(new Date());
-				//ConnectionHandler conn = new ConnectionHandler(s,this);
-				//conn.run();			
+							
 				handleConnection(s);
 			}
 			closeLog();
@@ -111,8 +116,6 @@ public class Process {
 			System.out.println(UUID+" log out");
 		} 
 	}
-
-	
 
 	private void setRandomOccurError() {
 		// TODO Auto-generated method stub
@@ -178,6 +181,13 @@ public class Process {
 	        	return;
 	        }
 	        
+	        if(message.equals("Detect")){
+	        	inFromClient.close();
+				is.close();
+				conn.close();
+	        	return;
+	        }
+	                
 	        if (message.equals("OKAY")) {
 	        	if (timeoutStatus[Integer.valueOf(senderUUID)]) {
 	        		GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Timeout: Received Timeout OKAY from "+ senderUUID);   
@@ -193,16 +203,21 @@ public class Process {
 				sendOK(senderUUID);
 				if(UUID != UUIDList.get(UUIDList.size()-1)){//not the process having biggest UUID
 					//send elect messages to those processes having bigger UUID
-					if (leader!=-1) {//already know the leader, thus do not need to elect.
-						GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: Already known the leader is "+leader+". No need to trigger an election");
-						logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: Already known the leader is "+leader+". No need to trigger an election";
-		    	    	log(logMessage);
-					}else{
-						GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Trigger an election");
-						logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Trigger an election";
-		    	    	log(logMessage);
-						elect();
-					}
+//					if (leader!=-1) {//already know the leader, thus do not need to elect.
+//						GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: Already known the leader is "+leader+". No need to trigger an election");
+//						logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: Already known the leader is "+leader+". No need to trigger an election";
+//		    	    	log(logMessage);
+//					}else{
+//						GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Trigger an election");
+//						logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Trigger an election";
+//		    	    	log(logMessage);
+//						elect();
+//					}
+					
+					GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Trigger an election");
+					logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Trigger an election";
+	    	    	log(logMessage);
+					elect();
 				}
 				else{//this process is the one having biggest UUID, thus ought to send Result					
 					sendResult();						
@@ -225,6 +240,73 @@ public class Process {
 		
 	}
 	
+	private void detectLeaderCrash() {
+		// TODO Auto-generated method stub
+		
+		Thread thread = new Thread(new Runnable() {
+			public void run() {
+				while(true){
+					while(true){
+						try {
+							Thread.sleep(1000);
+							if(leader!=-1) break;
+						} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+					
+					//already have a leader;
+					while(true){
+						try {
+							Thread.sleep(1000+(int)(Math.random()*3000));
+							if (isCrash) {
+								break;
+							}
+							if(!sendDetectiveMessage()){
+								break;			
+							}
+						} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+			    }
+				
+			}
+		});
+		thread.start();
+		
+	}
+	
+	
+	private boolean sendDetectiveMessage() {
+		Socket clientSocket = null;
+		ObjectOutputStream outToServer = null;
+		try {	
+			//System.out.println(UUIDList.size());
+			clientSocket = new Socket("127.0.0.1",portList.get(Integer.valueOf(leader)));
+			outToServer = new ObjectOutputStream(clientSocket.getOutputStream());	
+			outToServer.writeObject(String.valueOf(UUID));
+			outToServer.writeObject("Detect");			
+	        outToServer.close();
+	        clientSocket.close();
+	       return true;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block			
+			System.out.println(UUID+" find leader "+leader+" crash, thus invoke election");
+			logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Find leader ("+ leader+") crash";
+			GUI.appead(logMessage);		
+	    	log(logMessage);
+			
+			crashStatus[Integer.valueOf(leader)] = true;
+			leader=-1;
+			elect();
+			return false;
+		}
+	}
+	
+	
 	public void elect() {
 		Socket clientSocket = null;
 		ObjectOutputStream outToServer = null;
@@ -232,14 +314,14 @@ public class Process {
 			//System.out.println(UUIDList.size());
 			for(int i=UUID+1;i<UUIDList.size();i++){
 			   try {
+				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send Elect "+UUID+" to "+ UUIDList.get(i));
+				logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send Elect "+UUID+" to "+ UUIDList.get(i);
+	    	    log(logMessage);   
+				   
 				clientSocket = new Socket("127.0.0.1",portList.get(i));
 				outToServer = new ObjectOutputStream(clientSocket.getOutputStream());	
 				outToServer.writeObject(String.valueOf(UUID));
 				outToServer.writeObject("Elect");
-				
-				GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send Elect "+UUID+" to "+ UUIDList.get(i));
-				logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send Elect "+UUID+" to "+ UUIDList.get(i);
-    	    	log(logMessage);
 				
 				//System.out.println("["+formatter.format(new Date())+" | "+ UUID + " ] Algorithm: send Elect "+UUID+" to "+ Process.UUIDList.get(i));
 				outToServer.close();
@@ -386,11 +468,12 @@ public class Process {
 	public void close(){
 		try {
 			ss.close();
-			GUI.dispatchEvent(new WindowEvent(GUI, WindowEvent.WINDOW_CLOSING));
+			if(!closeBySelfGUI)
+			     GUI.dispatchEvent(new WindowEvent(GUI, WindowEvent.WINDOW_CLOSING));
+			System.out.println("");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			System.out.println("close exception");
-			e.printStackTrace();
+			System.out.println("force to kill socket");
 		}
 	}
 	
@@ -509,13 +592,23 @@ public class Process {
 		this.isOmission = isOmission;
 	}
 
-	public boolean isClose() {
-		return close;
+	public boolean isCloseByMainGUI() {
+		return closeByMainGUI;
 	}
 
-	public void setClose(boolean close) {
-		this.close = close;
+	public void setCloseByMainGUI(boolean closeByMainGUI) {
+		this.closeByMainGUI = closeByMainGUI;
 	}
+
+	public boolean isCloseBySelfGUI() {
+		return closeBySelfGUI;
+	}
+
+	public void setCloseBySelfGUI(boolean closeBySelfGUI) {
+		this.closeBySelfGUI = closeBySelfGUI;
+	}
+
+    
 	
 	
 	

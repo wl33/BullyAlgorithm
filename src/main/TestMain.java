@@ -16,13 +16,25 @@ import java.nio.file.StandardOpenOption;
 
 public class TestMain {
 
-	public static void main(String[] args) throws InterruptedException, IOException {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
 		
-		ServerSocket s = new ServerSocket(5555);
-		s.close();
-		System.out.println("ddd");
+		final ServerSocket s = new ServerSocket(5555) ;
+		Thread thread = new Thread(new Runnable() {
+			public void run() {
+			}
+		});
+		
+		try {
+			s.close();
+			System.out.println("kkk");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println("ddd");
+			e.printStackTrace();
+		}
+		//System.out.println("ddd");
 	    
 	}
 

@@ -45,9 +45,15 @@ public class ProcessGUI extends JFrame{
         	@Override
         	public void windowClosing(WindowEvent e) {
         		// TODO Auto-generated method stub
-        		process.close();
-        		process.setClose(true);
-        		super.windowClosing(e);
+        		if(process.isCloseByMainGUI()){
+        			super.windowClosing(e);
+        		}else{
+        			process.setCrash(true);
+        			process.setCloseBySelfGUI(true);
+        			process.close();
+        			super.windowClosing(e);
+        		}
+        		
         	}
 		}); 
 	}
