@@ -41,6 +41,7 @@ public class Process {
 	private ServerSocket ss; // listen for client connection requests on this server socket
 	private ProcessGUI GUI;
 	private boolean[] crashStatus;
+	private boolean[] timeoutStatus;
 	private int leader;
 	private double crashProssibility;
 	private double timeoutProssibility;
@@ -50,7 +51,6 @@ public class Process {
 	private boolean isCrash;
 	private boolean isOmission;
 	private int timeout;
-	private boolean[] timeoutStatus;
  	private FileWriter fw;
  	private String logMessage;
  	private BufferedWriter bw;
@@ -70,7 +70,7 @@ public class Process {
 		leader=-1;
 		crashProssibility=-1;
 		timeoutProssibility=-1;
-		formatter = new SimpleDateFormat("yyyy-MM-dd h:mm:ss");//[2016-03-22 12:14:01 | 1 ]
+		formatter = new SimpleDateFormat("yyyy-MM-dd h:mm:ss:SS");//[2016-03-22 12:14:01 | 1 ]
 		setFileWriter();
 		
 	}
@@ -115,29 +115,6 @@ public class Process {
 			}
 			System.out.println(UUID+" log out");
 		} 
-	}
-
-	private void setRandomOccurError() {
-		// TODO Auto-generated method stub
-		if(isCrash){
-			Thread t1 = new Thread(new Runnable() {
-				public void run() {
-					while(true){
-						try {
-							Thread.sleep(10);
-						} catch (InterruptedException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
-						}
-					}
-				}
-			});
-			t1.start();
-			return;
-		}
-		if (isTimeOut) {
-			
-		}
 	}
 
 	private void handleConnection(Socket conn){
@@ -250,6 +227,7 @@ public class Process {
 						try {
 							Thread.sleep(1000);
 							if(leader!=-1) break;
+							//System.out.println(UUID+": no leader yet");
 						} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
@@ -263,13 +241,16 @@ public class Process {
 							if (isCrash) {
 								break;
 							}
-							if(!sendDetectiveMessage()){
+							if(!sendDetectMessage()){
 								break;			
 							}
 						} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
+					}
+					if (isCrash) {
+						break;
 					}
 			    }
 				
@@ -279,8 +260,7 @@ public class Process {
 		
 	}
 	
-	
-	private boolean sendDetectiveMessage() {
+	private boolean sendDetectMessage() {
 		Socket clientSocket = null;
 		ObjectOutputStream outToServer = null;
 		try {	
@@ -300,12 +280,12 @@ public class Process {
 	    	log(logMessage);
 			
 			crashStatus[Integer.valueOf(leader)] = true;
+			receiveOK[leader]=false;
 			leader=-1;
 			elect();
 			return false;
 		}
 	}
-	
 	
 	public void elect() {
 		Socket clientSocket = null;
@@ -328,18 +308,26 @@ public class Process {
 		        clientSocket.close();
 		        }catch (IOException e) {
 					// TODO Auto-generated catch block			
-					System.out.println("elect exception");
+		        	System.out.println("elect exception");
 					GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: Crash Error "+ UUIDList.get(i));
 					logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: Crash Error "+ UUIDList.get(i);
 	    	    	log(logMessage);
 					
 					crashStatus[UUIDList.get(i)] = true;
-		            if(isRankTopNow()){
+					receiveOK[UUIDList.get(i)] = false;
+		            if(isRankTopNow(true,false)){
 		            	sendResult();
 		            	break;
 		            }
 		        }
 			}
+			
+			logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Internal: Waiting for response";
+			GUI.appead(logMessage);			
+    	    log(logMessage); 
+    	    logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Alogorithm: Wait for "+timeout+" ms";
+			GUI.appead(logMessage);			
+    	    log(logMessage);  
 			
 			Thread thread = new Thread( new Runnable() {
 				public void run() {
@@ -348,15 +336,15 @@ public class Process {
 						for(int i=UUID+1;i<UUIDList.size();i++){
 							if (receiveOK[i] == false) {
 								System.out.println("Process "+ i + "timeout");
-								GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within timeout ("+timeout+"ms)");
-								logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within timeout("+timeout+"ms)";
+								GUI.appead("["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within timeout ("+timeout+" ms)");
+								logMessage = "["+formatter.format(new Date())+" | "+ UUID + " ] Election Error: "+ "Fail to receive OKAY from "+UUIDList.get(i) + " within timeout("+timeout+" ms)";
 				    	    	log(logMessage);
 								
 								timeoutStatus[i] = true;
 							}
 						}
 						//do further steps
-						if (isRankTopNow()) sendResult();
+						if (isRankTopNow(false,true)) sendResult();
 					} catch (InterruptedException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
@@ -397,7 +385,40 @@ public class Process {
 		
 	}
 	
-	public void sendResult(){
+	private boolean isRankTopNow(boolean crashMessage, boolean timeoutMessage){
+		boolean isRankTopNow;
+		if(crashMessage==true){
+			isRankTopNow=true;
+			for (int i = UUID+1; i < crashStatus.length; i++) {
+				if(crashStatus[i]==false){
+					isRankTopNow=false;
+					break;
+				}
+			}
+			if(isRankTopNow){
+			    System.out.println(UUID+" is Top One now");
+				return true;
+			}
+		}
+		if (timeoutMessage==true){
+			isRankTopNow=true;
+			for(int i=receiveOK.length-1; i>=UUID+1; i--){
+				if (receiveOK[i]==true) {
+					isRankTopNow=false;
+					break;
+				}
+			}
+			
+			if(isRankTopNow){
+				System.out.println(UUID+" is Top One now");
+				return true;
+			}
+		}
+		return false;
+		
+	}
+	
+	private void sendResult(){
 		leader = UUID;
 		Socket clientSocket;
 		ObjectOutputStream outToServer = null;
@@ -429,7 +450,7 @@ public class Process {
 			     
 	}
 	
-	public void sendOK(String sendUUID){
+	private void sendOK(String sendUUID){
 		Socket clientSocket = null;
 		ObjectOutputStream outToServer = null;
 		try {	

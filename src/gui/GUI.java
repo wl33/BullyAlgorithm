@@ -41,8 +41,8 @@ import model.Process;
 
 
 public class GUI extends JFrame implements ActionListener{
-	private static int DEFAULT_FRAME_WIDTH = 650;
-	private static int DEFAULT_FRAME_HEIGHT = 300;
+	private static int DEFAULT_FRAME_WIDTH = 750;
+	private static int DEFAULT_FRAME_HEIGHT = 400;
 	private JPanel panel;
 	private JTextArea numberOfProcess;
 	private JTextArea timeout;
