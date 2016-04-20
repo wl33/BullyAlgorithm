@@ -1,0 +1,1040 @@
+*********************[2016-04-20 1:18:19:566 | 5 ] Status: Start Running*********************
+[2016-04-20 1:18:19:568 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:19:568 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:19:568 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:19:569 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:19:569 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:19:569 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:19:570 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:19:571 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:19:573 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:19:575 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:19:579 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:19:589 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:21:814 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:21:815 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:21:815 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:21:815 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:21:816 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:21:816 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:21:817 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:21:818 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:21:818 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:21:820 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:21:824 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:23:521 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:23:521 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:23:521 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:23:521 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:23:522 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:23:522 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:23:523 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:23:524 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:23:527 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:23:530 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:24:363 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:24:363 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:24:363 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:24:363 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:24:364 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:24:364 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:24:365 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:24:366 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:24:367 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:24:369 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:24:374 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:24:384 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:25:462 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:25:462 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:25:462 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:25:463 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:25:464 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:25:464 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:25:466 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:25:468 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:25:468 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:25:473 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:25:476 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:27:668 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:27:669 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:27:669 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:27:669 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:27:669 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:27:669 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:27:670 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:27:670 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:27:672 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:27:674 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:28:263 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:18:28:263 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:28:263 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:28:264 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:28:264 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:28:264 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:28:265 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:28:265 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:28:265 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:28:265 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:28:265 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:28:265 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:28:266 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:28:267 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:28:283 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:28:284 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:28:286 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:28:286 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:28:289 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:28:291 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:28:295 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:28:298 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:28:300 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:28:303 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:28:624 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:28:624 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:28:624 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:28:624 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:28:625 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:28:625 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:28:627 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:28:630 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:28:630 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:28:632 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:28:635 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:30:556 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:30:557 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:30:557 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:30:557 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:30:557 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:30:557 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:30:558 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:30:558 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:30:561 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:30:563 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:31:960 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:18:31:960 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:31:960 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:31:961 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:31:962 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:31:962 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:31:964 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:31:964 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:31:964 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:31:964 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:31:965 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:31:965 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:31:965 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:31:966 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:31:966 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:31:967 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:31:969 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:31:971 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:31:974 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:31:977 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:31:977 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:31:979 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:31:981 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:31:984 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:32:218 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:32:218 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:32:218 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:32:218 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:32:219 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:32:219 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:32:220 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:32:222 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:32:223 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:32:225 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:32:227 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:32:604 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:32:604 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:32:605 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:32:605 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:32:605 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:32:605 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:32:606 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:32:606 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:32:609 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:32:611 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:32:835 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:32:835 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:32:835 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:32:836 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:32:836 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:32:836 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:32:839 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:32:842 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:32:843 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:32:844 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:32:847 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:32:849 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:37:119 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:37:119 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:37:119 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:37:119 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:37:119 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:37:119 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:37:121 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:37:123 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:37:123 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:37:125 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:37:128 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:37:250 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:37:250 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:37:250 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:37:250 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:37:250 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:37:250 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:37:251 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:37:251 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:37:254 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:37:260 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:37:699 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:37:699 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:37:699 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:37:700 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:37:701 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:37:701 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:37:702 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:37:703 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:37:704 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:37:706 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:37:709 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:37:713 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:39:604 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:39:604 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:39:604 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:39:604 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:39:605 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:39:605 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:39:606 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:39:606 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:39:608 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:39:610 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:39:612 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:40:538 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:40:538 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:40:538 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:40:539 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:40:539 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:40:539 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:40:541 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:40:542 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:40:542 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:40:544 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:40:547 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:40:550 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:40:955 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:40:956 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:40:956 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:40:956 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:40:956 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:40:956 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:40:957 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:40:958 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:40:960 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:40:966 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:41:450 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:18:41:450 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:41:450 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:41:450 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:41:451 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:41:451 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:41:453 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:41:453 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:41:453 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:41:453 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:41:454 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:41:454 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:41:455 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:41:455 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:41:455 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:41:457 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:41:458 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:41:460 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:41:462 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:41:464 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:41:464 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:41:466 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:41:471 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:41:476 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:43:670 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:43:670 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:43:670 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:43:671 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:43:671 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:43:671 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:43:672 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:43:674 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:43:675 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:43:676 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:43:678 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:44:965 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:44:965 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:44:965 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:44:966 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:44:966 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:44:966 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:44:967 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:44:967 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:44:970 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:44:971 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:45:159 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:18:45:159 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:45:159 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:45:160 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:45:160 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:45:160 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:45:171 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:45:171 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:45:171 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:45:172 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:45:174 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:45:174 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:45:176 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:45:177 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:45:177 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:45:177 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:45:177 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:45:180 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:45:186 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:45:188 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:45:188 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:45:190 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:45:191 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:45:193 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:46:242 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:46:242 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:46:242 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:46:242 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:46:243 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:46:244 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:46:244 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:46:246 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:46:247 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:46:248 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:46:250 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:47:950 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:47:950 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:47:950 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:47:950 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:47:950 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:47:950 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:47:952 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:47:953 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:47:954 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:47:955 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:47:957 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:47:960 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:48:904 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:48:904 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:48:904 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:48:904 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:48:905 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:48:905 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:48:905 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:48:905 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:48:907 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:48:909 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:49:830 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:18:49:830 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:49:830 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:49:830 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:49:831 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:49:831 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:49:833 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:49:833 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:49:833 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:49:833 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:49:833 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:49:833 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:49:834 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:49:834 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:49:835 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:49:837 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:49:837 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:49:839 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:49:841 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:49:843 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:49:844 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:49:845 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:49:847 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:49:848 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:50:966 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:50:966 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:50:966 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:50:967 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:50:967 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:50:967 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:50:967 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:50:967 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:50:970 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:50:973 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:51:05 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:51:05 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:51:05 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:51:05 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:51:06 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:51:06 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:51:07 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:51:08 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:51:09 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:51:11 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:51:13 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:51:552 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:51:552 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:51:552 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:51:553 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:51:553 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:51:553 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:51:556 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:51:557 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:51:557 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:51:559 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:51:560 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:51:562 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:52:321 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:18:52:321 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:52:321 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:52:321 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:52:322 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:52:322 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:52:323 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:52:323 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:52:323 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:52:323 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:52:324 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:52:324 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:52:324 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:52:325 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:52:326 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:52:327 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:52:329 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:52:329 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:52:330 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:52:331 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:52:333 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:52:335 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:52:338 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:52:341 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:53:808 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:53:808 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:53:808 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:53:809 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:53:809 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:53:809 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:53:811 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:53:813 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:53:813 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:53:815 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:53:817 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:55:188 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:55:188 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:55:188 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:55:188 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:55:189 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:55:189 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:55:190 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:55:190 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:55:192 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:55:194 | 5 ] Internal: Received Result from 7
+*********************[2016-04-20 1:18:55:461 | 5 ] Status: Close Server*********************
+*********************[2016-04-20 1:18:56:75 | 5 ] Status: Start Running*********************
+[2016-04-20 1:18:56:77 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:56:77 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:56:77 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:56:78 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:56:78 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:56:78 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:56:79 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:56:80 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:56:84 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:56:86 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:56:91 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:56:96 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:56:306 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:56:306 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:56:306 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:56:306 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:56:306 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:56:307 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:56:308 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:56:309 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:56:311 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:56:312 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:56:313 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:56:316 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:56:426 | 5 ] Internal: Received Result from 6
+[2016-04-20 1:18:56:625 | 5 ] Internal: Received Result from 6
+[2016-04-20 1:18:57:683 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:57:683 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:57:683 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:57:683 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:57:684 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:57:684 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:57:684 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:57:685 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:57:687 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:57:690 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:58:328 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:18:58:328 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:58:328 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:58:329 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:58:329 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:58:329 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:58:334 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:58:334 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:58:334 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:58:336 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:58:345 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:58:345 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:58:345 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:58:346 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:58:346 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:58:348 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:58:349 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:58:351 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:58:353 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:58:356 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:58:357 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:58:360 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:58:364 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:58:368 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:58:666 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:58:666 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:58:666 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:58:667 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:58:667 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:58:667 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:58:668 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:58:671 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:58:672 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:58:674 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:58:676 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:59:570 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:18:59:570 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:59:570 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:59:572 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:59:574 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:59:574 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:59:576 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:18:59:576 | 5 ] Internal: Trigger an election
+[2016-04-20 1:18:59:576 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:18:59:576 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:18:59:577 | 5 ] Internal: Waiting for response
+[2016-04-20 1:18:59:577 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:18:59:578 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:59:578 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:59:579 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:18:59:580 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:59:584 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:59:585 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:59:586 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:59:588 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:59:589 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:18:59:592 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:59:595 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:18:59:599 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:01:345 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:01:345 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:01:345 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:01:346 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:01:346 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:01:346 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:01:347 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:01:347 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:01:349 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:01:352 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:01:354 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:02:147 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:02:147 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:02:147 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:02:147 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:02:148 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:02:148 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:02:148 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:02:148 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:02:150 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:02:153 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:03:804 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:19:03:804 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:03:804 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:03:805 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:03:806 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:03:806 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:03:809 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:19:03:809 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:03:809 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:03:809 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:03:810 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:03:810 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:03:814 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:03:814 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:03:816 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:03:817 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:03:818 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:03:822 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:03:837 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:03:842 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:03:847 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:03:850 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:03:853 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:03:858 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:04:936 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:04:936 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:04:936 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:04:936 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:04:937 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:04:937 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:04:937 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:04:940 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:04:940 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:04:942 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:04:944 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:06:596 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:06:596 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:06:596 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:06:596 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:06:596 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:06:597 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:06:597 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:06:597 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:06:600 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:06:602 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:06:995 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:06:995 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:06:996 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:06:996 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:06:996 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:06:996 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:06:997 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:07:00 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:07:00 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:07:01 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:07:03 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:08:81 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:19:08:81 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:08:81 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:08:82 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:08:92 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:08:92 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:08:93 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:19:08:93 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:08:93 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:08:94 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:08:94 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:08:94 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:08:95 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:08:95 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:08:96 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:08:98 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:08:100 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:08:101 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:08:103 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:08:107 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:08:108 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:08:110 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:08:112 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:08:114 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:09:432 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:09:432 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:09:432 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:09:432 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:09:432 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:09:432 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:09:433 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:09:433 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:09:436 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:09:439 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:09:689 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:19:09:689 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:09:689 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:09:690 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:09:690 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:09:690 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:09:691 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:09:692 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:09:695 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:09:696 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:09:698 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:09:702 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:09:741 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:09:741 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:09:741 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:09:742 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:09:742 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:09:742 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:09:743 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:09:745 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:09:746 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:09:750 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:09:755 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:12:342 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:19:12:343 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:12:343 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:12:344 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:12:344 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:12:344 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:12:346 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:19:12:347 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:12:347 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:12:347 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:12:348 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:12:348 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:12:349 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:12:349 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:12:351 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:12:354 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:12:355 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:12:358 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:12:364 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:12:367 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:12:368 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:12:374 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:12:378 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:12:380 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:13:631 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:13:631 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:13:631 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:13:631 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:13:632 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:13:632 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:13:633 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:13:634 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:13:637 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:13:643 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:13:808 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:19:13:808 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:13:808 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:13:809 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:13:810 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:13:810 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:13:814 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:13:815 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:13:816 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:13:818 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:13:820 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:13:822 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:13:828 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:13:828 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:13:828 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:13:828 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:13:829 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:13:829 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:13:829 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:13:830 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:13:831 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:13:832 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:13:835 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:15:983 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:19:15:983 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:15:983 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:15:983 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:15:984 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:15:984 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:15:988 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:19:15:988 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:15:988 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:15:988 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:15:988 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:15:988 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:15:989 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:15:989 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:15:990 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:15:992 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:15:994 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:15:995 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:15:997 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:15:997 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:15:999 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:16:01 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:16:04 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:16:07 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:16:493 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:16:493 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:16:493 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:16:493 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:16:493 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:16:493 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:16:494 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:16:494 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:16:497 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:16:500 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:17:88 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:19:17:88 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:17:88 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:17:88 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:17:89 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:17:89 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:17:90 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:17:90 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:17:92 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:17:93 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:17:94 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:17:96 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:17:120 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:17:120 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:17:120 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:17:120 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:17:120 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:17:120 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:17:121 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:17:121 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:17:122 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:17:124 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:17:126 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:18:934 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:19:18:934 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:18:934 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:18:934 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:18:935 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:18:935 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:18:936 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:19:18:936 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:18:936 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:18:937 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:18:937 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:18:937 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:18:938 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:18:938 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:18:939 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:18:941 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:18:941 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:18:944 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:18:945 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:18:948 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:18:949 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:18:950 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:18:952 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:18:956 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:19:494 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:19:494 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:19:494 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:19:494 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:19:494 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:19:495 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:19:495 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:19:495 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:19:498 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:19:501 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:19:582 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:19:19:582 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:19:582 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:19:590 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:19:590 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:19:590 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:19:591 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:19:592 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:19:592 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:19:594 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:19:597 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:19:598 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:20:838 | 5 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:20:838 | 5 ] Internal: Trigger an election
+[2016-04-20 1:19:20:838 | 5 ] Algorithm: send Elect 5 to 6
+[2016-04-20 1:19:20:838 | 5 ] Algorithm: send Elect 5 to 7
+[2016-04-20 1:19:20:838 | 5 ] Internal: Waiting for response
+[2016-04-20 1:19:20:838 | 5 ] Alogorithm: Wait for 700 ms
+[2016-04-20 1:19:20:839 | 5 ] Internal: Received OKAY from 6
+[2016-04-20 1:19:20:841 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:20:841 | 5 ] Internal: Received OKAY from 7
+[2016-04-20 1:19:20:842 | 5 ] Internal: Received Result from 7
+[2016-04-20 1:19:20:845 | 5 ] Internal: Received Result from 7
+*********************[2016-04-20 1:19:21:570 | 5 ] Status: Close Server*********************
+*********************[2016-04-20 1:19:22:46 | 5 ] Status: Start Running*********************
+[2016-04-20 1:19:22:46 | 5 ] Error: Crash Error
+*********************[2016-04-20 1:20:11:593 | 5 ] Status: Start Running*********************
+[2016-04-20 1:20:12:608 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:20:12:610 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:611 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:613 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:614 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:615 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:616 | 5 ] Algorithm: send OKAY 5 to 3
+[2016-04-20 1:20:12:617 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:619 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:627 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:629 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:632 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:638 | 5 ] Algorithm: send OKAY 5 to 1
+[2016-04-20 1:20:12:639 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:640 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:642 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:645 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:647 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:648 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:20:12:650 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:653 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:656 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:658 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:661 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:662 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:12:665 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:666 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:667 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:668 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:670 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:673 | 5 ] Algorithm: send OKAY 5 to 3
+[2016-04-20 1:20:12:674 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:676 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:677 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:678 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:681 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:682 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:12:683 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:684 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:685 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:686 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:687 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:694 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:12:696 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:697 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:698 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:702 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:703 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:709 | 5 ] Algorithm: send OKAY 5 to 3
+[2016-04-20 1:20:12:710 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:711 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:715 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:717 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:719 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:720 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:20:12:722 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:724 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:726 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:727 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:728 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:729 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:12:730 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:731 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:732 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:733 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:734 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:736 | 5 ] Algorithm: send OKAY 5 to 3
+[2016-04-20 1:20:12:737 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:738 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:739 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:741 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:748 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:751 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:12:755 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:757 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:759 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:759 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:760 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:761 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:12:761 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:762 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:763 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:764 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:765 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:765 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:12:766 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:767 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:768 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:769 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:772 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:12:773 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:12:775 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:12:777 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:12:780 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:12:781 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:12:782 | 5 ] Algorithm: send Result 5 to 4
+*********************[2016-04-20 1:20:21:140 | 5 ] Status: Close Server*********************
+*********************[2016-04-20 1:20:21:621 | 5 ] Status: Start Running*********************
+[2016-04-20 1:20:21:627 | 5 ] Algorithm: send OKAY 5 to 0
+[2016-04-20 1:20:21:627 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:628 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:628 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:629 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:630 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:631 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:20:21:631 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:632 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:633 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:634 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:634 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:635 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:21:636 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:637 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:639 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:639 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:641 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:641 | 5 ] Algorithm: send OKAY 5 to 3
+[2016-04-20 1:20:21:642 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:643 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:645 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:647 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:649 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:650 | 5 ] Algorithm: send OKAY 5 to 1
+[2016-04-20 1:20:21:651 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:651 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:652 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:652 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:653 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:654 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:21:654 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:655 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:655 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:656 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:657 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:657 | 5 ] Algorithm: send OKAY 5 to 3
+[2016-04-20 1:20:21:658 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:659 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:659 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:660 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:661 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:662 | 5 ] Algorithm: send OKAY 5 to 2
+[2016-04-20 1:20:21:662 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:663 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:663 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:664 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:666 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:667 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:21:668 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:668 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:669 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:670 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:670 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:671 | 5 ] Algorithm: send OKAY 5 to 3
+[2016-04-20 1:20:21:672 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:672 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:673 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:673 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:674 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:674 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:21:675 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:676 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:678 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:679 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:681 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:683 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:21:684 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:684 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:686 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:687 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:687 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:689 | 5 ] Algorithm: send OKAY 5 to 3
+[2016-04-20 1:20:21:690 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:691 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:692 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:693 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:693 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:695 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:21:696 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:697 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:698 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:698 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:700 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:700 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:21:702 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:702 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:703 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:704 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:705 | 5 ] Algorithm: send Result 5 to 4
+[2016-04-20 1:20:21:705 | 5 ] Algorithm: send OKAY 5 to 4
+[2016-04-20 1:20:21:707 | 5 ] Algorithm: send Result 5 to 0
+[2016-04-20 1:20:21:707 | 5 ] Algorithm: send Result 5 to 1
+[2016-04-20 1:20:21:708 | 5 ] Algorithm: send Result 5 to 2
+[2016-04-20 1:20:21:708 | 5 ] Algorithm: send Result 5 to 3
+[2016-04-20 1:20:21:709 | 5 ] Algorithm: send Result 5 to 4
+*********************[2016-04-20 1:21:30:456 | 5 ] Status: Close Server*********************

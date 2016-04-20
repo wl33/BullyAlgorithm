@@ -1,0 +1,106 @@
+*********************[2016-04-20 1:18:19:566 | 3 ] Status: Start Running*********************
+[2016-04-20 1:18:19:566 | 3 ] Error: Crash Error
+*********************[2016-04-20 1:18:56:75 | 3 ] Status: Start Running*********************
+[2016-04-20 1:18:56:75 | 3 ] Error: Crash Error
+*********************[2016-04-20 1:20:11:590 | 3 ] Status: Start Running*********************
+[2016-04-20 1:20:12:606 | 3 ] Algorithm: send OKAY 3 to 0
+[2016-04-20 1:20:12:606 | 3 ] Internal: Trigger an election
+[2016-04-20 1:20:12:607 | 3 ] Algorithm: send Elect 3 to 4
+[2016-04-20 1:20:12:607 | 3 ] Algorithm: send Elect 3 to 5
+[2016-04-20 1:20:12:608 | 3 ] Internal: Waiting for response
+[2016-04-20 1:20:12:608 | 3 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:610 | 3 ] Algorithm: send OKAY 3 to 2
+[2016-04-20 1:20:12:611 | 3 ] Internal: Trigger an election
+[2016-04-20 1:20:12:611 | 3 ] Algorithm: send Elect 3 to 4
+[2016-04-20 1:20:12:612 | 3 ] Algorithm: send Elect 3 to 5
+[2016-04-20 1:20:12:613 | 3 ] Internal: Waiting for response
+[2016-04-20 1:20:12:613 | 3 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:616 | 3 ] Algorithm: send OKAY 3 to 1
+[2016-04-20 1:20:12:616 | 3 ] Internal: Trigger an election
+[2016-04-20 1:20:12:617 | 3 ] Algorithm: send Elect 3 to 4
+[2016-04-20 1:20:12:618 | 3 ] Algorithm: send Elect 3 to 5
+[2016-04-20 1:20:12:619 | 3 ] Internal: Waiting for response
+[2016-04-20 1:20:12:619 | 3 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:620 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:622 | 3 ] Algorithm: send OKAY 3 to 2
+[2016-04-20 1:20:12:622 | 3 ] Internal: Trigger an election
+[2016-04-20 1:20:12:622 | 3 ] Algorithm: send Elect 3 to 4
+[2016-04-20 1:20:12:625 | 3 ] Algorithm: send Elect 3 to 5
+[2016-04-20 1:20:12:627 | 3 ] Internal: Waiting for response
+[2016-04-20 1:20:12:628 | 3 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:638 | 3 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:12:638 | 3 ] Internal: Received OKAY from 4
+[2016-04-20 1:20:12:639 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:639 | 3 ] Internal: Received OKAY from 4
+[2016-04-20 1:20:12:644 | 3 ] Internal: Received OKAY from 4
+[2016-04-20 1:20:12:646 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:658 | 3 ] Internal: Received OKAY from 4
+[2016-04-20 1:20:12:659 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:669 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:673 | 3 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:12:678 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:686 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:702 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:708 | 3 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:12:717 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:727 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:733 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:736 | 3 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:12:740 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:759 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:764 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:769 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:781 | 3 ] Internal: Received Result from 5
+*********************[2016-04-20 1:20:21:128 | 3 ] Status: Close Server*********************
+*********************[2016-04-20 1:20:21:620 | 3 ] Status: Start Running*********************
+[2016-04-20 1:20:21:623 | 3 ] Algorithm: send OKAY 3 to 0
+[2016-04-20 1:20:21:623 | 3 ] Internal: Trigger an election
+[2016-04-20 1:20:21:624 | 3 ] Algorithm: send Elect 3 to 4
+[2016-04-20 1:20:21:626 | 3 ] Algorithm: send Elect 3 to 5
+[2016-04-20 1:20:21:627 | 3 ] Internal: Waiting for response
+[2016-04-20 1:20:21:627 | 3 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:629 | 3 ] Algorithm: send OKAY 3 to 2
+[2016-04-20 1:20:21:629 | 3 ] Internal: Trigger an election
+[2016-04-20 1:20:21:629 | 3 ] Algorithm: send Elect 3 to 4
+[2016-04-20 1:20:21:630 | 3 ] Algorithm: send Elect 3 to 5
+[2016-04-20 1:20:21:630 | 3 ] Internal: Waiting for response
+[2016-04-20 1:20:21:630 | 3 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:631 | 3 ] Algorithm: send OKAY 3 to 1
+[2016-04-20 1:20:21:631 | 3 ] Internal: Trigger an election
+[2016-04-20 1:20:21:632 | 3 ] Algorithm: send Elect 3 to 4
+[2016-04-20 1:20:21:632 | 3 ] Algorithm: send Elect 3 to 5
+[2016-04-20 1:20:21:633 | 3 ] Internal: Waiting for response
+[2016-04-20 1:20:21:633 | 3 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:634 | 3 ] Internal: Received OKAY from 4
+[2016-04-20 1:20:21:634 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:636 | 3 ] Algorithm: send OKAY 3 to 2
+[2016-04-20 1:20:21:636 | 3 ] Internal: Trigger an election
+[2016-04-20 1:20:21:636 | 3 ] Algorithm: send Elect 3 to 4
+[2016-04-20 1:20:21:637 | 3 ] Algorithm: send Elect 3 to 5
+[2016-04-20 1:20:21:637 | 3 ] Internal: Waiting for response
+[2016-04-20 1:20:21:637 | 3 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:638 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:638 | 3 ] Internal: Received OKAY from 4
+[2016-04-20 1:20:21:640 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:641 | 3 ] Internal: Received OKAY from 4
+[2016-04-20 1:20:21:642 | 3 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:646 | 3 ] Internal: Received OKAY from 4
+[2016-04-20 1:20:21:649 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:652 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:656 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:658 | 3 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:660 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:665 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:670 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:671 | 3 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:673 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:679 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:687 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:690 | 3 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:693 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:699 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:705 | 3 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:708 | 3 ] Internal: Received Result from 5
+*********************[2016-04-20 1:21:30:443 | 3 ] Status: Close Server*********************
+*********************[2016-04-20 1:21:31:26 | 3 ] Status: Start Running*********************
+[2016-04-20 1:21:31:26 | 3 ] Error: Crash Error

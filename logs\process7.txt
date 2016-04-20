@@ -1,0 +1,2152 @@
+*********************[2016-04-20 12:13:44:863 | 7 ] Status: Start Running*********************
+[2016-04-20 12:13:45:880 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:13:45:880 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:13:45:880 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:13:45:881 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:13:45:881 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:13:45:881 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:13:45:884 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:13:45:884 | 7 ] Omission Error: Not Reply
+*********************[2016-04-20 12:19:19:139 | 7 ] Status: Close Server*********************
+*********************[2016-04-20 12:19:19:761 | 7 ] Status: Start Running*********************
+[2016-04-20 12:19:19:768 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:19:19:768 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:19:19:769 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:19:19:769 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:19:19:769 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:19:19:770 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:19:19:773 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:19:19:774 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:20:739 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:20:740 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:20:950 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:20:950 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:21:03 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:27:21:03 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:21:06 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:21:06 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:21:103 | 7 ] Internal: Received Elect from 0
+[2016-04-20 12:27:21:103 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:21:103 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:27:21:103 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:21:104 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:21:104 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:21:110 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:21:110 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:24:857 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:24:857 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:25:652 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:27:25:653 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:25:654 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:25:654 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:25:759 | 7 ] Internal: Received Elect from 0
+[2016-04-20 12:27:25:759 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:25:760 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:25:760 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:25:761 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:27:25:761 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:25:764 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:25:764 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:28:979 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:28:979 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:29:587 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:29:587 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:32:599 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:32:599 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:33:189 | 7 ] Internal: Received Elect from 0
+[2016-04-20 12:27:33:189 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:33:190 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:27:33:190 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:33:191 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:33:191 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:33:192 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:33:192 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:35:615 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:35:615 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:36:522 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:36:522 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:38:555 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:38:556 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:38:815 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:38:815 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:42:412 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:42:412 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:42:573 | 7 ] Internal: Received Elect from 0
+[2016-04-20 12:27:42:573 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:42:574 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:27:42:574 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:42:576 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:42:576 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:42:585 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:42:586 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:45:197 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:45:197 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:46:278 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:46:278 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:47:820 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:47:820 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:49:926 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:49:926 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:49:934 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:49:934 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:50:614 | 7 ] Internal: Received Elect from 0
+[2016-04-20 12:27:50:614 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:50:614 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:27:50:614 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:50:614 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:50:614 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:50:616 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:50:617 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:54:194 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:54:194 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:55:600 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:27:55:600 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:55:601 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:55:601 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:56:484 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:56:484 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:57:68 | 7 ] Internal: Received Elect from 0
+[2016-04-20 12:27:57:68 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:57:68 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:27:57:68 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:57:68 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:57:68 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:57:70 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:57:70 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:58:495 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:27:58:495 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:59:560 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:27:59:560 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:27:59:560 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:27:59:561 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:01:157 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:28:01:157 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:01:943 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:28:01:943 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:01:943 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:28:01:943 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:04:691 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:28:04:691 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:06:145 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:28:06:145 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:06:145 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:28:06:145 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:06:853 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:28:06:853 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:07:642 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:28:07:642 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:10:366 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:28:10:366 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:11:55 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:28:11:55 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:11:55 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:28:11:55 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:28:13:832 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:28:13:832 | 7 ] Omission Error: Not Reply
+*********************[2016-04-20 12:28:14:820 | 7 ] Status: Close Server*********************
+*********************[2016-04-20 12:29:48:174 | 7 ] Status: Start Running*********************
+[2016-04-20 12:29:49:184 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:29:49:184 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:29:49:185 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:29:49:185 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:29:49:185 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:29:49:185 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:29:49:189 | 7 ] Internal: Received Elect from 5
+[2016-04-20 12:29:49:189 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:29:54:499 | 7 ] Internal: Received Elect from 1
+[2016-04-20 12:29:54:499 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:29:54:502 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:29:54:503 | 7 ] Omission Error: Not Reply
+[2016-04-20 12:29:55:34 | 7 ] Internal: Received Elect from 4
+[2016-04-20 12:29:55:34 | 7 ] Omission Error: Not Reply
+*********************[2016-04-20 12:30:06:238 | 7 ] Status: Close Server*********************
+*********************[2016-04-20 1:12:00:16 | 7 ] Status: Start Running*********************
+[2016-04-20 1:12:00:19 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:12:00:19 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:12:00:19 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:12:00:20 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:12:00:20 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:12:00:21 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:12:00:21 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:12:00:21 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:12:00:22 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:12:00:23 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:12:00:23 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:12:00:24 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:12:00:24 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:12:00:25 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:12:00:25 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:12:00:25 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:12:00:26 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:12:00:27 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:12:00:28 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:12:00:28 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:12:00:28 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:12:00:29 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:12:00:29 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:12:00:29 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:12:00:30 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:12:00:30 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:12:00:31 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:12:00:31 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:12:00:31 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:12:00:31 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:12:00:32 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:12:00:32 | 7 ] Algorithm: send Result 7 to 6
+*********************[2016-04-20 1:18:18:971 | 7 ] Status: Close Server*********************
+*********************[2016-04-20 1:18:19:567 | 7 ] Status: Start Running*********************
+[2016-04-20 1:18:19:569 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:19:569 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:19:570 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:19:570 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:19:570 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:19:571 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:19:571 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:19:571 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:19:572 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:19:572 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:19:572 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:19:572 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:19:573 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:19:573 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:19:573 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:19:574 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:19:575 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:19:575 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:19:576 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:19:577 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:19:578 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:19:578 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:19:579 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:19:580 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:19:582 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:19:583 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:19:584 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:19:585 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:19:587 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:19:588 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:19:589 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:19:590 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:21:816 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:21:817 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:21:817 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:21:817 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:21:818 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:21:818 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:21:818 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:21:818 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:21:819 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:21:819 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:21:819 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:21:820 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:21:820 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:21:820 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:21:820 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:21:821 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:21:821 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:21:821 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:21:822 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:21:822 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:21:823 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:21:823 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:21:823 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:21:825 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:23:524 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:23:524 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:23:525 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:23:526 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:23:526 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:23:527 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:23:527 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:23:527 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:23:528 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:23:528 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:23:529 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:23:529 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:23:530 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:23:530 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:23:530 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:23:530 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:24:364 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:24:364 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:24:364 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:24:365 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:24:365 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:24:365 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:24:366 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:24:366 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:24:366 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:24:367 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:24:367 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:24:368 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:24:368 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:24:368 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:24:369 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:24:369 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:24:370 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:24:370 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:24:370 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:24:372 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:24:373 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:24:373 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:24:373 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:24:374 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:24:375 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:24:375 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:24:378 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:24:381 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:24:382 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:24:383 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:24:383 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:24:384 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:25:464 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:25:465 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:25:466 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:25:467 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:25:467 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:25:467 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:25:468 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:25:468 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:25:468 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:25:468 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:25:469 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:25:470 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:25:471 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:25:472 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:25:472 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:25:473 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:25:474 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:25:474 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:25:475 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:25:475 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:25:476 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:25:476 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:25:476 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:25:476 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:27:670 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:27:671 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:27:671 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:27:671 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:27:672 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:27:672 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:27:672 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:27:672 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:27:673 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:27:673 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:27:674 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:27:674 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:27:674 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:27:674 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:27:674 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:27:674 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:28:264 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:18:28:264 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:28:264 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:28:265 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:28:265 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:28:265 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:28:266 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:28:266 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:28:268 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:28:282 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:28:283 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:28:283 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:28:284 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:28:284 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:28:284 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:28:284 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:28:285 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:28:285 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:28:285 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:28:285 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:28:285 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:28:286 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:28:286 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:28:286 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:28:286 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:28:287 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:28:288 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:28:288 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:28:288 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:28:289 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:28:289 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:28:290 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:28:291 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:28:291 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:28:293 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:28:293 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:28:294 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:28:295 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:28:295 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:28:295 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:28:296 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:28:296 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:28:297 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:28:297 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:28:297 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:28:298 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:28:298 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:28:298 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:28:298 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:28:299 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:28:299 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:28:299 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:28:300 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:28:300 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:28:300 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:28:300 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:28:301 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:28:302 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:28:302 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:28:302 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:28:303 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:28:303 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:28:303 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:28:304 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:28:625 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:28:627 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:28:628 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:28:628 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:28:629 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:28:629 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:28:629 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:28:630 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:28:630 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:28:630 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:28:631 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:28:631 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:28:631 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:28:632 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:28:632 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:28:633 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:28:633 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:28:633 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:28:634 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:28:634 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:28:634 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:28:635 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:28:635 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:28:635 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:30:558 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:30:558 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:30:559 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:30:559 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:30:560 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:30:560 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:30:561 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:30:561 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:30:561 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:30:561 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:30:561 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:30:562 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:30:562 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:30:562 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:30:563 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:30:563 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:31:962 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:18:31:962 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:31:962 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:31:963 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:31:963 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:31:964 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:31:965 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:31:965 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:31:966 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:31:966 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:31:967 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:31:967 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:31:968 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:31:968 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:31:968 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:31:969 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:31:969 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:31:969 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:31:970 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:31:970 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:31:971 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:31:971 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:31:971 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:31:971 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:31:972 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:31:972 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:31:972 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:31:973 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:31:973 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:31:974 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:31:974 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:31:975 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:31:975 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:31:976 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:31:976 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:31:976 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:31:976 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:31:976 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:31:977 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:31:977 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:31:977 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:31:977 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:31:978 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:31:978 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:31:978 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:31:978 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:31:979 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:31:979 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:31:980 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:31:980 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:31:980 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:31:980 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:31:981 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:31:981 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:31:981 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:31:981 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:31:982 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:31:982 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:31:983 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:31:983 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:31:983 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:31:983 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:31:984 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:31:984 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:32:219 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:32:220 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:32:220 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:32:221 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:32:221 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:32:222 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:32:222 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:32:222 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:32:223 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:32:223 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:32:223 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:32:224 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:32:224 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:32:225 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:32:225 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:32:225 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:32:226 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:32:226 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:32:226 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:32:226 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:32:227 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:32:227 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:32:227 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:32:227 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:32:606 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:32:606 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:32:607 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:32:607 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:32:608 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:32:608 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:32:609 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:32:609 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:32:609 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:32:609 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:32:609 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:32:610 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:32:610 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:32:610 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:32:611 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:32:611 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:32:836 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:32:837 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:32:838 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:32:839 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:32:840 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:32:841 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:32:842 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:32:842 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:32:843 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:32:843 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:32:843 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:32:843 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:32:843 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:32:844 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:32:844 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:32:844 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:32:845 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:32:845 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:32:845 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:32:846 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:32:846 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:32:846 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:32:847 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:32:847 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:32:847 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:32:847 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:32:848 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:32:848 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:32:849 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:32:849 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:32:849 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:32:849 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:37:120 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:37:120 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:37:121 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:37:121 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:37:122 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:37:123 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:37:123 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:37:123 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:37:123 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:37:124 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:37:124 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:37:124 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:37:125 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:37:125 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:37:125 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:37:126 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:37:126 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:37:126 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:37:127 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:37:127 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:37:128 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:37:128 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:37:128 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:37:128 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:37:251 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:37:252 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:37:252 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:37:253 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:37:253 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:37:253 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:37:254 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:37:255 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:37:255 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:37:256 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:37:257 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:37:258 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:37:258 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:37:259 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:37:260 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:37:262 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:37:701 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:37:701 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:37:702 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:37:702 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:37:703 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:37:703 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:37:703 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:37:704 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:37:704 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:37:705 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:37:705 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:37:705 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:37:705 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:37:706 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:37:706 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:37:707 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:37:707 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:37:708 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:37:708 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:37:708 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:37:709 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:37:709 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:37:709 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:37:709 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:37:710 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:37:711 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:37:712 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:37:712 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:37:712 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:37:712 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:37:713 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:37:713 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:39:605 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:39:606 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:39:606 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:39:606 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:39:607 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:39:607 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:39:607 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:39:608 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:39:608 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:39:609 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:39:609 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:39:609 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:39:609 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:39:609 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:39:609 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:39:610 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:39:610 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:39:610 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:39:610 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:39:611 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:39:611 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:39:611 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:39:611 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:39:612 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:40:539 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:40:540 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:40:540 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:40:541 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:40:541 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:40:541 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:40:541 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:40:542 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:40:542 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:40:542 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:40:542 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:40:543 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:40:543 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:40:543 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:40:544 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:40:544 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:40:545 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:40:545 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:40:545 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:40:545 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:40:546 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:40:547 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:40:547 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:40:547 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:40:548 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:40:548 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:40:548 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:40:548 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:40:548 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:40:549 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:40:550 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:40:550 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:40:958 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:40:958 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:40:959 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:40:959 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:40:959 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:40:960 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:40:960 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:40:961 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:40:961 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:40:962 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:40:963 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:40:963 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:40:964 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:40:965 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:40:966 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:40:966 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:41:451 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:18:41:451 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:41:452 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:41:453 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:41:453 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:41:454 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:41:454 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:41:455 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:41:455 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:41:456 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:41:456 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:41:456 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:41:457 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:41:457 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:41:457 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:41:458 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:41:458 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:41:458 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:41:459 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:41:459 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:41:459 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:41:459 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:41:460 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:41:460 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:41:460 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:41:460 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:41:461 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:41:461 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:41:461 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:41:462 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:41:462 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:41:462 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:41:462 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:41:463 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:41:463 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:41:463 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:41:464 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:41:464 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:41:464 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:41:464 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:41:464 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:41:465 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:41:465 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:41:465 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:41:465 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:41:466 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:41:466 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:41:467 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:41:467 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:41:467 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:41:468 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:41:469 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:41:470 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:41:470 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:41:471 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:41:471 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:41:472 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:41:475 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:41:475 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:41:476 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:41:476 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:41:476 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:41:476 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:41:477 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:43:671 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:43:672 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:43:672 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:43:673 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:43:673 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:43:674 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:43:674 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:43:674 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:43:675 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:43:675 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:43:675 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:43:675 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:43:676 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:43:676 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:43:676 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:43:676 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:43:677 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:43:677 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:43:677 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:43:678 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:43:678 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:43:678 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:43:678 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:43:678 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:44:967 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:44:967 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:44:968 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:44:968 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:44:969 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:44:969 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:44:970 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:44:970 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:44:970 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:44:970 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:44:970 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:44:971 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:44:971 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:44:971 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:44:971 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:44:971 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:45:160 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:18:45:161 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:45:162 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:45:162 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:45:165 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:45:169 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:45:170 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:45:171 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:45:172 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:45:173 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:45:174 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:45:175 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:45:176 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:45:177 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:45:177 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:45:177 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:45:178 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:45:178 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:45:178 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:45:179 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:45:179 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:45:179 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:45:180 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:45:183 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:45:184 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:45:184 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:45:185 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:45:185 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:45:186 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:45:186 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:45:186 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:45:187 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:45:187 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:45:187 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:45:187 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:45:187 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:45:188 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:45:188 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:45:188 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:45:188 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:45:188 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:45:189 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:45:189 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:45:189 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:45:189 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:45:189 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:45:190 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:45:190 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:45:190 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:45:190 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:45:190 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:45:191 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:45:191 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:45:191 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:45:191 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:45:191 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:45:192 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:45:192 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:45:192 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:45:192 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:45:193 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:45:193 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:45:193 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:45:193 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:46:244 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:46:244 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:46:245 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:46:245 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:46:246 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:46:246 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:46:246 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:46:246 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:46:247 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:46:247 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:46:247 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:46:247 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:46:248 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:46:248 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:46:248 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:46:248 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:46:248 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:46:249 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:46:249 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:46:249 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:46:249 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:46:249 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:46:249 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:46:250 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:47:951 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:47:951 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:47:952 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:47:952 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:47:952 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:47:953 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:47:953 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:47:953 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:47:954 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:47:954 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:47:954 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:47:954 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:47:955 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:47:955 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:47:955 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:47:955 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:47:955 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:47:956 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:47:956 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:47:956 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:47:956 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:47:956 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:47:957 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:47:957 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:47:957 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:47:958 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:47:958 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:47:959 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:47:959 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:47:960 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:47:960 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:47:961 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:48:905 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:48:906 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:48:906 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:48:907 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:48:907 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:48:907 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:48:907 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:48:908 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:48:908 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:48:908 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:48:909 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:48:909 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:48:909 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:48:909 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:48:909 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:48:909 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:49:831 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:18:49:831 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:49:832 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:49:833 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:49:833 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:49:833 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:49:834 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:49:834 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:49:834 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:49:835 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:49:835 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:49:836 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:49:836 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:49:836 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:49:837 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:49:837 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:49:837 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:49:837 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:49:837 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:49:838 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:49:838 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:49:839 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:49:839 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:49:839 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:49:839 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:49:840 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:49:840 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:49:840 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:49:840 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:49:840 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:49:841 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:49:841 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:49:841 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:49:841 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:49:842 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:49:843 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:49:843 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:49:843 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:49:843 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:49:844 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:49:844 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:49:844 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:49:844 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:49:844 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:49:845 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:49:845 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:49:845 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:49:845 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:49:846 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:49:846 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:49:846 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:49:846 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:49:846 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:49:847 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:49:847 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:49:847 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:49:847 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:49:847 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:49:848 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:49:848 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:49:848 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:49:848 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:49:848 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:49:849 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:50:967 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:50:968 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:50:968 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:50:969 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:50:970 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:50:970 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:50:970 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:50:970 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:50:971 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:50:971 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:50:971 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:50:972 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:50:972 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:50:972 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:50:973 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:50:973 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:51:07 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:51:07 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:51:08 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:51:08 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:51:09 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:51:09 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:51:09 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:51:10 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:51:10 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:51:10 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:51:10 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:51:10 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:51:11 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:51:11 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:51:11 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:51:11 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:51:11 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:51:12 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:51:12 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:51:12 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:51:12 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:51:13 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:51:13 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:51:13 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:51:553 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:51:554 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:51:554 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:51:555 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:51:556 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:51:556 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:51:556 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:51:557 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:51:557 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:51:557 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:51:557 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:51:558 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:51:558 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:51:558 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:51:559 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:51:559 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:51:559 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:51:559 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:51:559 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:51:560 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:51:560 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:51:560 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:51:560 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:51:560 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:51:561 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:51:561 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:51:561 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:51:561 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:51:561 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:51:561 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:51:562 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:51:562 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:52:322 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:18:52:322 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:52:323 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:52:323 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:52:324 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:52:324 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:52:324 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:52:324 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:52:325 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:52:325 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:52:326 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:52:326 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:52:326 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:52:326 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:52:327 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:52:327 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:52:327 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:52:327 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:52:328 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:52:328 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:52:328 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:52:328 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:52:329 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:52:329 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:52:329 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:52:329 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:52:329 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:52:330 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:52:330 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:52:330 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:52:330 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:52:330 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:52:331 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:52:331 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:52:331 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:52:331 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:52:332 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:52:332 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:52:333 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:52:333 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:52:333 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:52:333 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:52:334 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:52:334 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:52:334 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:52:335 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:52:335 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:52:335 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:52:335 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:52:336 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:52:336 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:52:336 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:52:337 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:52:338 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:52:338 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:52:338 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:52:339 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:52:339 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:52:339 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:52:339 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:52:340 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:52:340 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:52:341 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:52:341 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:53:810 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:53:811 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:53:811 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:53:812 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:53:812 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:53:813 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:53:813 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:53:813 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:53:813 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:53:813 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:53:814 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:53:814 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:53:814 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:53:814 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:53:815 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:53:815 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:53:816 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:53:816 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:53:816 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:53:816 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:53:816 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:53:817 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:53:817 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:53:817 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:55:190 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:55:190 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:55:191 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:55:191 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:55:192 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:55:192 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:55:192 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:55:192 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:55:192 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:55:193 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:55:193 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:55:193 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:55:194 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:55:194 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:55:194 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:55:195 | 7 ] Algorithm: send Result 7 to 6
+*********************[2016-04-20 1:18:55:472 | 7 ] Status: Close Server*********************
+*********************[2016-04-20 1:18:56:76 | 7 ] Status: Start Running*********************
+[2016-04-20 1:18:56:78 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:56:78 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:56:79 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:56:79 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:56:79 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:56:80 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:56:80 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:56:80 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:56:81 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:56:81 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:56:82 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:56:83 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:56:83 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:56:84 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:56:84 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:56:84 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:56:86 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:56:88 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:56:89 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:56:89 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:56:89 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:56:90 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:56:91 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:56:91 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:56:92 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:56:93 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:56:94 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:56:94 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:56:95 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:56:95 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:56:96 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:56:97 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:56:307 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:56:307 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:56:307 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:56:308 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:56:308 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:56:308 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:56:309 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:56:309 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:56:310 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:56:310 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:56:310 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:56:310 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:56:311 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:56:311 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:56:311 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:56:311 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:56:311 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:56:312 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:56:312 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:56:312 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:56:312 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:56:313 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:56:313 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:56:313 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:56:313 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:56:314 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:56:314 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:56:314 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:56:314 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:56:315 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:56:315 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:56:316 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:57:685 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:57:685 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:57:686 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:57:686 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:57:687 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:57:687 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:57:687 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:57:687 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:57:688 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:57:688 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:57:688 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:57:689 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:57:689 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:57:689 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:57:690 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:57:690 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:58:330 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:18:58:331 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:58:334 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:58:335 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:58:336 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:58:345 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:58:346 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:58:346 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:58:346 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:58:347 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:58:347 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:58:347 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:58:348 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:58:348 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:58:348 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:58:348 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:58:349 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:58:349 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:58:349 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:58:349 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:58:350 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:58:350 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:58:351 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:58:351 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:58:351 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:58:351 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:58:352 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:58:352 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:58:352 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:58:352 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:58:353 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:58:353 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:58:354 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:58:355 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:58:355 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:58:356 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:58:356 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:58:356 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:58:356 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:58:357 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:58:357 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:58:358 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:58:358 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:58:359 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:58:359 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:58:359 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:58:360 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:58:360 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:58:361 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:58:361 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:58:362 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:58:362 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:58:362 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:58:363 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:58:364 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:58:365 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:58:365 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:58:366 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:58:366 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:58:367 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:58:367 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:58:367 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:58:368 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:58:368 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:58:667 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:58:668 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:58:669 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:58:669 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:58:670 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:58:671 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:58:671 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:58:671 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:58:672 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:58:672 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:58:672 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:58:673 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:58:673 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:58:673 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:58:674 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:58:674 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:58:674 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:58:674 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:58:675 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:58:675 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:58:675 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:58:676 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:58:676 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:58:676 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:59:571 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:18:59:572 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:59:572 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:59:573 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:59:574 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:59:574 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:59:575 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:59:575 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:59:576 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:18:59:576 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:59:577 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:59:577 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:59:579 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:59:579 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:59:579 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:59:580 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:59:581 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:59:582 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:59:583 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:59:583 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:59:583 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:59:584 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:59:584 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:59:584 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:59:585 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:59:585 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:59:585 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:59:585 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:59:586 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:59:586 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:59:586 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:59:586 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:59:587 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:59:587 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:59:587 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:59:587 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:59:587 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:59:588 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:59:588 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:59:588 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:59:589 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:18:59:589 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:59:590 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:59:590 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:59:590 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:59:591 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:59:592 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:59:592 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:59:593 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:59:594 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:59:594 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:59:594 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:59:594 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:59:595 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:59:595 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:59:596 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:18:59:596 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:18:59:596 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:18:59:597 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:18:59:598 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:18:59:598 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:18:59:598 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:18:59:598 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:18:59:599 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:01:347 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:01:347 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:01:348 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:01:348 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:01:348 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:01:348 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:01:349 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:01:349 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:01:350 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:01:350 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:01:351 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:01:351 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:01:351 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:01:351 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:01:351 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:01:352 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:01:352 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:01:352 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:01:352 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:01:353 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:01:353 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:01:353 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:01:354 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:01:354 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:02:148 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:02:148 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:02:149 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:02:150 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:02:150 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:02:150 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:02:150 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:02:151 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:02:151 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:02:152 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:02:152 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:02:152 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:02:152 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:02:153 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:02:153 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:02:153 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:03:806 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:19:03:807 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:03:807 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:03:808 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:03:808 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:03:809 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:03:810 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:03:814 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:03:815 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:19:03:815 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:03:815 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:03:816 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:03:816 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:03:817 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:03:817 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:03:817 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:03:818 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:03:819 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:03:819 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:03:820 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:03:821 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:03:822 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:03:822 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:03:822 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:03:823 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:03:825 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:03:825 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:03:825 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:03:827 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:03:834 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:03:837 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:03:838 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:03:838 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:03:838 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:03:839 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:03:841 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:03:841 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:03:841 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:03:842 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:03:844 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:03:846 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:03:847 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:03:848 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:03:848 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:03:849 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:03:849 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:03:850 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:03:851 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:03:851 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:03:852 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:03:852 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:03:852 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:03:853 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:03:853 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:03:853 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:03:853 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:03:854 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:03:854 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:03:854 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:03:855 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:03:856 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:03:856 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:03:857 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:03:858 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:04:937 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:04:937 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:04:938 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:04:938 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:04:939 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:04:939 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:04:940 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:04:940 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:04:940 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:04:940 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:04:940 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:04:941 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:04:941 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:04:941 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:04:941 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:04:942 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:04:942 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:04:942 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:04:943 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:04:943 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:04:944 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:04:944 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:04:944 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:04:945 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:06:597 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:06:598 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:06:599 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:06:599 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:06:599 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:06:600 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:06:600 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:06:600 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:06:600 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:06:601 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:06:601 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:06:602 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:06:602 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:06:602 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:06:602 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:06:603 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:06:997 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:06:997 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:06:998 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:06:998 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:06:999 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:06:999 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:07:00 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:07:00 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:07:00 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:07:00 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:07:01 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:07:01 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:07:01 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:07:01 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:07:01 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:07:02 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:07:02 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:07:02 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:07:02 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:07:02 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:07:03 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:07:03 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:07:03 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:07:03 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:08:82 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:19:08:93 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:08:93 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:08:94 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:08:94 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:08:94 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:08:95 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:08:95 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:08:96 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:08:96 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:08:97 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:08:97 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:08:97 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:08:97 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:08:98 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:08:98 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:08:98 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:19:08:98 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:08:99 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:08:99 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:08:99 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:08:100 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:08:100 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:08:100 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:08:101 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:08:101 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:08:101 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:08:102 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:08:102 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:08:102 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:08:103 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:08:104 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:08:105 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:08:105 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:08:105 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:08:105 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:08:106 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:08:107 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:08:107 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:08:108 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:08:108 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:08:108 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:08:108 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:08:109 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:08:109 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:08:109 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:08:110 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:08:110 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:08:111 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:08:111 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:08:111 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:08:111 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:08:112 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:08:112 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:08:112 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:08:112 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:08:113 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:08:113 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:08:113 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:08:114 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:08:114 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:08:114 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:08:114 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:08:114 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:09:433 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:09:433 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:09:434 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:09:435 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:09:435 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:09:436 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:09:436 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:09:436 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:09:436 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:09:437 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:09:438 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:09:438 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:09:439 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:09:439 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:09:439 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:09:440 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:09:690 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:19:09:690 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:09:691 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:09:691 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:09:691 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:09:691 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:09:692 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:09:692 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:09:693 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:09:694 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:09:694 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:09:694 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:09:695 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:09:695 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:09:695 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:09:696 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:09:696 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:09:696 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:09:697 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:09:697 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:09:697 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:09:698 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:09:698 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:09:699 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:09:699 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:09:700 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:09:701 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:09:701 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:09:701 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:09:701 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:09:702 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:09:702 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:09:743 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:09:743 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:09:744 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:09:744 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:09:744 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:09:745 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:09:745 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:09:745 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:09:746 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:09:746 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:09:746 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:09:747 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:09:747 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:09:749 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:09:750 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:09:750 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:09:751 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:09:751 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:09:752 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:09:752 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:09:753 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:09:754 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:09:755 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:09:755 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:12:344 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:19:12:345 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:12:346 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:12:346 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:12:347 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:12:348 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:12:348 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:12:349 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:12:350 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:12:351 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:12:351 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:12:353 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:12:353 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:12:354 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:12:354 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:12:355 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:12:355 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:12:356 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:12:357 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:12:357 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:12:357 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:12:358 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:12:358 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:12:359 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:12:361 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:19:12:361 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:12:362 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:12:363 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:12:363 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:12:363 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:12:363 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:12:364 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:12:364 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:12:365 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:12:366 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:12:366 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:12:366 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:12:367 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:12:367 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:12:367 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:12:368 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:12:369 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:12:370 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:12:370 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:12:373 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:12:373 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:12:373 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:12:374 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:12:374 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:12:375 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:12:376 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:12:377 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:12:377 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:12:378 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:12:378 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:12:378 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:12:379 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:12:379 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:12:379 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:12:379 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:12:380 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:12:380 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:12:380 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:12:380 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:13:633 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:13:634 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:13:635 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:13:636 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:13:636 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:13:636 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:13:637 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:13:637 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:13:638 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:13:639 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:13:641 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:13:642 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:13:642 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:13:643 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:13:643 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:13:645 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:13:809 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:19:13:811 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:13:812 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:13:813 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:13:813 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:13:814 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:13:815 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:13:815 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:13:816 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:13:817 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:13:817 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:13:817 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:13:818 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:13:818 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:13:818 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:13:818 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:13:818 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:13:819 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:13:819 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:13:819 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:13:819 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:13:820 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:13:820 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:13:820 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:13:820 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:13:820 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:13:821 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:13:821 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:13:822 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:13:822 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:13:822 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:13:822 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:13:829 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:13:829 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:13:829 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:13:830 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:13:830 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:13:830 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:13:830 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:13:830 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:13:831 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:13:831 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:13:831 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:13:831 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:13:832 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:13:832 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:13:832 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:13:833 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:13:833 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:13:833 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:13:833 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:13:834 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:13:834 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:13:835 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:13:835 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:13:836 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:15:984 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:19:15:988 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:15:988 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:15:988 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:15:989 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:15:989 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:15:989 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:15:990 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:15:990 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:19:15:991 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:15:991 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:15:991 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:15:991 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:15:992 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:15:992 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:15:993 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:15:993 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:15:993 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:15:993 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:15:993 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:15:994 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:15:994 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:15:994 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:15:994 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:15:995 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:15:995 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:15:995 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:15:995 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:15:996 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:15:996 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:15:997 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:15:997 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:15:997 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:15:997 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:15:998 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:15:998 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:15:999 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:15:999 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:15:999 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:15:999 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:16:00 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:16:00 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:16:00 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:16:01 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:16:01 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:16:01 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:16:01 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:16:01 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:16:02 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:16:02 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:16:02 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:16:02 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:16:03 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:16:03 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:16:03 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:16:04 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:16:04 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:16:05 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:16:05 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:16:05 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:16:06 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:16:06 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:16:07 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:16:07 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:16:494 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:16:494 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:16:495 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:16:495 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:16:496 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:16:496 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:16:497 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:16:497 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:16:497 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:16:497 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:16:497 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:16:498 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:16:498 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:16:499 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:16:499 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:16:500 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:17:89 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:19:17:89 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:17:90 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:17:90 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:17:90 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:17:90 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:17:90 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:17:91 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:17:91 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:17:91 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:17:91 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:17:92 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:17:92 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:17:92 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:17:92 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:17:92 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:17:93 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:17:93 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:17:93 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:17:93 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:17:94 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:17:94 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:17:94 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:17:94 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:17:94 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:17:95 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:17:95 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:17:95 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:17:95 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:17:95 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:17:95 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:17:96 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:17:121 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:17:121 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:17:121 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:17:121 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:17:122 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:17:122 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:17:122 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:17:122 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:17:123 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:17:123 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:17:123 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:17:123 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:17:124 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:17:124 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:17:124 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:17:124 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:17:125 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:17:125 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:17:125 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:17:125 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:17:125 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:17:125 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:17:126 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:17:126 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:18:935 | 7 ] Algorithm: send OKAY 7 to 0
+[2016-04-20 1:19:18:935 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:18:936 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:18:936 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:18:937 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:18:937 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:18:937 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:18:938 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:18:938 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:19:18:939 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:18:939 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:18:940 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:18:940 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:18:940 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:18:941 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:18:941 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:18:941 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:18:941 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:18:942 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:18:942 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:18:943 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:18:943 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:18:944 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:18:944 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:18:944 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:18:944 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:18:944 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:18:945 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:18:945 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:18:945 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:18:945 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:18:945 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:18:946 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:18:946 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:18:947 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:18:947 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:18:947 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:18:948 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:18:948 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:18:948 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:18:949 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:18:949 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:18:949 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:18:949 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:18:949 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:18:949 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:18:950 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:18:950 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:18:950 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:18:951 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:18:951 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:18:951 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:18:951 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:18:952 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:18:952 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:18:952 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:18:953 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:18:953 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:18:954 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:18:954 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:18:955 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:18:955 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:18:955 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:18:956 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:19:495 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:19:495 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:19:496 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:19:496 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:19:497 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:19:498 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:19:498 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:19:499 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:19:500 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:19:500 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:19:500 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:19:500 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:19:501 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:19:501 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:19:501 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:19:502 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:19:591 | 7 ] Algorithm: send OKAY 7 to 2
+[2016-04-20 1:19:19:591 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:19:591 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:19:591 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:19:592 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:19:592 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:19:592 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:19:592 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:19:592 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:19:593 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:19:593 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:19:593 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:19:593 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:19:594 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:19:594 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:19:595 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:19:595 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:19:595 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:19:595 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:19:596 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:19:596 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:19:596 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:19:596 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:19:597 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:19:597 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:19:597 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:19:597 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:19:598 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:19:598 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:19:598 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:19:598 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:19:599 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:20:839 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:20:839 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:20:839 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:20:840 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:20:840 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:20:840 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:20:841 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:20:841 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:20:841 | 7 ] Algorithm: send OKAY 7 to 5
+[2016-04-20 1:19:20:841 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:20:842 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:20:842 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:20:842 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:20:842 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:20:842 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:20:843 | 7 ] Algorithm: send Result 7 to 6
+[2016-04-20 1:19:20:843 | 7 ] Algorithm: send OKAY 7 to 6
+[2016-04-20 1:19:20:843 | 7 ] Algorithm: send Result 7 to 0
+[2016-04-20 1:19:20:844 | 7 ] Algorithm: send Result 7 to 1
+[2016-04-20 1:19:20:844 | 7 ] Algorithm: send Result 7 to 2
+[2016-04-20 1:19:20:844 | 7 ] SendResult Error: Crash Error 3
+[2016-04-20 1:19:20:845 | 7 ] Algorithm: send Result 7 to 4
+[2016-04-20 1:19:20:845 | 7 ] Algorithm: send Result 7 to 5
+[2016-04-20 1:19:20:845 | 7 ] Algorithm: send Result 7 to 6
+*********************[2016-04-20 1:19:21:580 | 7 ] Status: Close Server*********************

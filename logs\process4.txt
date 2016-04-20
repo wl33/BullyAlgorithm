@@ -1,0 +1,208 @@
+*********************[2016-04-20 1:18:19:566 | 4 ] Status: Start Running*********************
+[2016-04-20 1:18:20:296 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:22:544 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:24:251 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:25:87 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:26:190 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:28:399 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:29:121 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:18:29:849 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:30:581 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:31:313 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:32:689 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:18:33:417 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:34:144 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:34:874 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:35:600 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:37:846 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:38:574 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:39:301 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:40:327 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:41:265 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:41:992 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:42:713 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:18:43:445 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:44:397 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:45:697 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:46:428 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:18:47:158 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:47:884 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:48:682 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:49:638 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:50:558 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:18:51:286 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:52:11 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:52:733 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:53:463 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:54:194 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:18:54:929 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:55:658 | 4 ] SendOK Error: Crash Error 3
+*********************[2016-04-20 1:18:55:658 | 4 ] Status: Close Server*********************
+*********************[2016-04-20 1:18:56:75 | 4 ] Status: Start Running*********************
+[2016-04-20 1:18:56:803 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:57:526 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:18:58:414 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:18:59:139 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:18:59:866 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:19:00:593 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:01:326 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:19:02:48 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:19:02:775 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:03:504 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:04:531 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:19:05:254 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:19:05:985 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:07:327 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:08:59 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:08:807 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:19:09:534 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:19:10:260 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:10:989 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:19:11:718 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:13:62 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:19:13:790 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:19:14:517 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:15:244 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:19:15:969 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:16:704 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:19:17:433 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:19:18:159 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:18:881 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:19:19:602 | 4 ] SendOK Error: Crash Error 3
+[2016-04-20 1:19:20:330 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 0
+[2016-04-20 1:19:21:56 | 4 ] Timeout On Purpose: send delayed OKAY 4 to 2
+[2016-04-20 1:19:21:788 | 4 ] SendOK Error: Crash Error 3
+*********************[2016-04-20 1:19:21:789 | 4 ] Status: Close Server*********************
+*********************[2016-04-20 1:20:11:596 | 4 ] Status: Start Running*********************
+[2016-04-20 1:20:12:610 | 4 ] Algorithm: send OKAY 4 to 0
+[2016-04-20 1:20:12:610 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:12:610 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:12:611 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:12:611 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:614 | 4 ] Algorithm: send OKAY 4 to 2
+[2016-04-20 1:20:12:614 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:12:614 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:12:615 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:12:615 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:617 | 4 ] Algorithm: send OKAY 4 to 3
+[2016-04-20 1:20:12:617 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:12:618 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:12:618 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:12:618 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:621 | 4 ] Algorithm: send OKAY 4 to 1
+[2016-04-20 1:20:12:621 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:12:622 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:12:623 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:12:624 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:635 | 4 ] Algorithm: send OKAY 4 to 3
+[2016-04-20 1:20:12:635 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:12:635 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:12:638 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:12:638 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:641 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:643 | 4 ] Algorithm: send OKAY 4 to 3
+[2016-04-20 1:20:12:644 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:12:644 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:12:646 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:12:646 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:649 | 4 ] Algorithm: send OKAY 4 to 2
+[2016-04-20 1:20:12:650 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:12:650 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:12:652 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:12:653 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:656 | 4 ] Algorithm: send OKAY 4 to 3
+[2016-04-20 1:20:12:656 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:12:658 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:12:659 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:12:660 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:12:661 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:661 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:662 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:665 | 4 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:12:666 | 4 ] Election Error: Fail to receive OKAY from 5 within timeout(50 ms)
+[2016-04-20 1:20:12:670 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:681 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:682 | 4 ] Timeout: Received Timeout OKAY from 5
+[2016-04-20 1:20:12:687 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:694 | 4 ] Timeout: Received Timeout OKAY from 5
+[2016-04-20 1:20:12:703 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:719 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:728 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:729 | 4 ] Timeout: Received Timeout OKAY from 5
+[2016-04-20 1:20:12:734 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:746 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:750 | 4 ] Timeout: Received Timeout OKAY from 5
+[2016-04-20 1:20:12:760 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:761 | 4 ] Timeout: Received Timeout OKAY from 5
+[2016-04-20 1:20:12:765 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:765 | 4 ] Timeout: Received Timeout OKAY from 5
+[2016-04-20 1:20:12:770 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:12:773 | 4 ] Timeout: Received Timeout OKAY from 5
+[2016-04-20 1:20:12:782 | 4 ] Internal: Received Result from 5
+*********************[2016-04-20 1:20:21:133 | 4 ] Status: Close Server*********************
+*********************[2016-04-20 1:20:21:621 | 4 ] Status: Start Running*********************
+[2016-04-20 1:20:21:626 | 4 ] Algorithm: send OKAY 4 to 0
+[2016-04-20 1:20:21:626 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:21:626 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:21:627 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:21:627 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:628 | 4 ] Algorithm: send OKAY 4 to 3
+[2016-04-20 1:20:21:629 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:21:629 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:21:629 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:21:629 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:631 | 4 ] Algorithm: send OKAY 4 to 2
+[2016-04-20 1:20:21:631 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:21:631 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:21:632 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:21:632 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:633 | 4 ] Algorithm: send OKAY 4 to 1
+[2016-04-20 1:20:21:633 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:21:633 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:21:634 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:21:634 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:636 | 4 ] Algorithm: send OKAY 4 to 3
+[2016-04-20 1:20:21:636 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:21:636 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:21:637 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:21:637 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:638 | 4 ] Algorithm: send OKAY 4 to 2
+[2016-04-20 1:20:21:638 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:21:638 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:21:639 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:21:639 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:640 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:642 | 4 ] Algorithm: send OKAY 4 to 3
+[2016-04-20 1:20:21:642 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:21:642 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:21:643 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:21:643 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:644 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:644 | 4 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:646 | 4 ] Algorithm: send OKAY 4 to 3
+[2016-04-20 1:20:21:646 | 4 ] Internal: Trigger an election
+[2016-04-20 1:20:21:646 | 4 ] Algorithm: send Elect 4 to 5
+[2016-04-20 1:20:21:648 | 4 ] Internal: Waiting for response
+[2016-04-20 1:20:21:648 | 4 ] Alogorithm: Wait for 50 ms
+[2016-04-20 1:20:21:649 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:650 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:653 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:654 | 4 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:657 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:661 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:666 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:667 | 4 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:670 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:674 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:675 | 4 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:682 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:683 | 4 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:688 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:695 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:695 | 4 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:700 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:700 | 4 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:705 | 4 ] Internal: Received Result from 5
+[2016-04-20 1:20:21:706 | 4 ] Internal: Received OKAY from 5
+[2016-04-20 1:20:21:709 | 4 ] Internal: Received Result from 5
+*********************[2016-04-20 1:21:30:448 | 4 ] Status: Close Server*********************
